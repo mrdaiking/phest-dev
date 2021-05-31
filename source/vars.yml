@@ -1,0 +1,549 @@
+common: #全ページ共通でアサインされる変数を定義
+  sitename: "飲食店に特化したブレインのPOSレジ"
+  title: "ブレイン株式会社"
+local: #開発環境でビルドしたときのみアサインされる変数を定義
+  title: "開発環境 ブレイン株式会社"
+staging: #検証環境でビルドしたときのみアサインされる変数を定義
+  title: "検証環境 ブレイン株式会社"
+production: #本番環境でビルドしたときのみアサインされる変数を定義
+  title: "飲食店に特化したブレインのPOSレジ"
+path: #ページごとにアサインされる変数を定義
+#--------------------------------------
+# TOP
+#--------------------------------------
+  index.html:
+    title: ""
+    description: "業界最安値！リアルタイムな売上分析を月額0円から。飲食店に特化したブレインのPOSレジはカフェ・居酒屋・焼肉店など様々な業態に最適化。QRや電子マネー決済など、多様なキャッシュレス決済にも対応。"
+    keyword: "ブレインレジスター,POSレジ,ポスレジ,blayn,ブレイン,飲食店,ハンディ"
+    css: "/common/css/top.css"
+    js: "/common/js/lightbox-2.6.min.js"
+    canonical: "https://blayn.com/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 特徴[レジ本体]
+#--------------------------------------
+  feature/:
+    title: "POSレジの特徴｜"
+    description: "稼働率99.9%のブレインPOSレジの主な機能のご紹介。テーブル移動・合算や売上履歴、日替わりメニューが簡単に登録できる飲食店専用の設計。混雑状況をリアルタイムに発信できる機能が追加。過密を防いでの集客という時代に求められて機能を搭載"
+    keyword: "POSレジ,ポスレジ,飲食店レジ,機能紹介,ブレインレジスター,blayn"
+    css: "/common/css/feature-reg.css"
+    canonical: "https://blayn.com/feature/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 特徴[管理画面]
+#--------------------------------------
+  feature/mng.html:
+    title: "管理画面の特徴｜"
+    description: "売上情報やテーブル状況などのデータは全て管理画面で確認することができます。また、スマホアプリは売上の確認だけでなく、不正防止の通知機能などを活用して頂くことでPOSレジの本領を発揮させることができます。"
+    keyword: "POSレジ,ポスレジ,飲食店レジ,不正防止機能,売上通知,ブレインレジスター,blayn"
+    css: "/common/css/feature-mng.css"
+    canonical: "https://blayn.com/feature/mng.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 特徴[ハンディ]
+#--------------------------------------
+  feature/handy.html:
+    title: "ハンディの特徴｜"
+    description: "テーブルからハンディでオーダー。手間なくミスなく業務効率化を計れます。全ての履歴がクラウドに保存されるので不正防止に役立ちます。売上履歴に訂正が入ったら即時通知する機能も実装しています。"
+    keyword: "POSレジ,ポスレジ,飲食店レジ,ハンディ,オーダーエントリー,ブレインレジスター,blayn"
+    css: "/common/css/feature-handy.css"
+    canonical: "https://blayn.com/feature/handy.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 機能一覧[レジ本体]
+#--------------------------------------
+  function/:
+    title: "POSレジの機能一覧｜"
+    description: "ブレインのPOSレジの主な機能のご紹介。テーブル移動・合算や売上履歴、日替わりメニューの登録など飲食店専用の設計だから実現した、これからの新しいPOSレジのカタチをご提案します。"
+    keyword: "POSレジ,ポスレジ,機能紹介,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/function.css"
+    js: "../common/plg/swiper/swiper.jquery.min.js"
+    canonical: "https://blayn.com/function/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 製品概要[ハンディ]
+#--------------------------------------
+  function/handy.html:
+    title: "ハンディの機能一覧｜"
+    description: "ブレインのPOSレジ専用のハンディアプリ「bhandy」のご紹介。飲食店向けの設計かつ、誰でもハンディをスマホのようにかんたん操作ができる”わかりやすさ”にとことんこだわりました。操作を覚える時間も短縮できます。"
+    css: "/common/css/function.css"
+    canonical: "https://blayn.com/function/handy.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 製品概要[管理画面]
+#--------------------------------------
+  function/mng.html:
+    title: "管理画面の機能一覧｜"
+    description: "売上情報やテーブル状況などのデータは全て管理画面で確認することができます。また、売上履歴として確認するだけでなく、販売促進ツールとして活用して頂くことでPOSレジの本領を発揮させることができます。"
+    css: "/common/css/function.css"
+    canonical: "https://blayn.com/function/mng.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 製品概要[ハードウェア]
+#--------------------------------------
+  function/hardware.html:
+    title: "ハードウェア｜"
+    description: "ブレインのPOSレジ、周辺機器の製品仕様のご紹介。"
+    css: "/common/css/function.css"
+    canonical: "https://blayn.com/function/hardware.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 価格
+#--------------------------------------
+  price/:
+    title: "プラン｜"
+    description: "飲食店専用のPOSレジだから実現できるコストダウン。無料でお手軽にPOSレジを使えるプランからハンディとキッチンプリンターなど全ての機能が使えるプランまでお店の運用に合ったプランをお選びください。"
+    keyword: "価格,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/price.css"
+    js: "../common/js/price.js"
+    canonical: "https://blayn.com/price/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+
+#--------------------------------------
+# オプション
+#--------------------------------------
+  option/:
+    title: "オプション｜"
+    description: "オプションのページです"
+    keyword: "価格,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/option.css"
+    js: "../common/js/option.js"
+    canonical: "https://blayn.com/option/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+
+#--------------------------------------
+# ショールーム
+#--------------------------------------
+  showroom/:
+    title: "ショールーム｜"
+    description: "ブレインのPOSレジを実際に体験できるショールームのご案内。製品に触れていただきながら、専任スタッフがお客さまのご不明点にお答えいたします。"
+    keyword: "ショールーム,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/showroom.css"
+    js: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSrLUP19xYOPcn432SmedC948xXrd5m3g"
+    canonical: "https://blayn.com/showroom/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 受賞実績
+#--------------------------------------
+  awards/:
+    title: "受賞実績｜デザイン賞｜"
+    description: "磨きぬかれたそのシンプルで美しいフォルム、飲食店向けに設計されたブレインのPOSレジは数々の機能が評価され国内外でデザイン賞を受賞しています。"
+    keyword: "受賞実績,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン,デザイン賞"
+    css: "/common/css/awards.css"
+    js: "../common/js/lightbox-2.6.min.js"
+    canonical: "https://blayn.com/awards/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# ビジネスモデル特許
+#--------------------------------------
+  patent/:
+    title: "ビジネスモデル特許｜"
+    description: "ブレインのPOSレジはふたつの特許を取得を取得。飲食店のPOSレジ導入時に懸念される問題を解決しました。飲食店専用の設計だから実現した、これからの新しいPOSレジのカタチをご提案します。"
+    keyword: "受賞実績,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン,デザイン賞"
+    css: "/common/css/patent.css"
+    js: "../common/js/lightbox-2.6.min.js"
+    canonical: "https://blayn.com/patent/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 導入事例
+#--------------------------------------
+  case/:
+    title: "POSレジ導入事例｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているお客様の声をご紹介。"
+    keyword: "導入事例,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/case.css"
+    js: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSrLUP19xYOPcn432SmedC948xXrd5m3g"
+    canonical: "https://blayn.com/case/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_curryshokudo.html:
+    title: "POSレジ導入事例-カレー食堂 心 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているカレー食堂 心様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_curryshokudo.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_longinghouse.html:
+    title: "POSレジ導入事例-野菜がおいしいダイニング 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている野菜がおいしいダイニング様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_longinghouse.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_bwcafe.html:
+    title: "POSレジ導入事例-BW CAFE 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているBW CAFE様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_bwcafe.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_umaimon.html:
+    title: "POSレジ導入事例-うまいもん 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているうまいもん様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_umaimon.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_joesman2.html:
+    title: "POSレジ導入事例-JOE'SMAN２号 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているJOE'SMAN２号様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_joesman2.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_moe.html:
+    title: "POSレジ導入事例-YAKITORI燃 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているYAKITORI燃様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_moe.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_kanoho.html:
+    title: "POSレジ導入事例-香の帆 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている香の帆様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_kanoho.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_adores.html:
+    title: "POSレジ導入事例-ADORES 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているADORES様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_adores.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_wasabi.html:
+    title: "POSレジ導入事例-わさび 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているわさび様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_wasabi.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_scotchbank.html:
+    title: "POSレジ導入事例-スコッチバンク様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているスコッチバンク様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_scotchbank.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_bacchusnosara.html:
+    title: "POSレジ導入事例-Bacchusのさら様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているBacchusのさら様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_bacchusnosara.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_manimal.html:
+    title: "POSレジ導入事例-マニマル様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているマニマル様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_manimal.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_goodmealsshop.html:
+    title: "POSレジ導入事例-GOOD MEALS SHOP 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているGOOD MEALS SHOP様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_goodmealsshop.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_genpukan.html:
+    title: "POSレジ導入事例-玄風館 龍 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている玄風館 龍様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_genpukan.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_toriboshi.html:
+    title: "POSレジ導入事例-鳥星 恵比寿バール 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている鳥星 恵比寿バール様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_toriboshi.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_girigiricafe.html:
+    title: "POSレジ導入事例-Giri giri様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているGiri giri様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_girigiricafe.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_hinabebo.html:
+    title: "POSレジ導入事例-老麻火鍋房 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている老麻火鍋房様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_hinabebo.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_billows.html:
+    title: "POSレジ導入事例-Billows様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているBillows様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_billows.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_nikuazabu.html:
+    title: "POSレジ導入事例-NIKUAZABU 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているNIKUAZABU様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_nikuazabu.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_mid.html:
+    title: "POSレジ導入事例-西麻布MID 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている西麻布MID様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_mid.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_cafe1406.html:
+    title: "POSレジ導入事例-CAFE1406 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているCAFE1406様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_cafe1406.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_hana.html:
+    title: "POSレジ導入事例-焼肉旬菜 花 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている焼肉旬菜 花様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_hana.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_siam.html:
+    title: "POSレジ導入事例-サイアム食堂 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているサイアム食堂様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_siam.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_giorgio.html:
+    title: "POSレジ導入事例-da GIORGIO 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているda GIORGIO様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_giorgio.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_gosenban.html:
+    title: "POSレジ導入事例-GOSEN番 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているGOSEN番様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_gosenban.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_blocks_shinjuku.html:
+    title: "POSレジ導入事例-塊肉ビストロ BLOCKS 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている塊肉ビストロ BLOCKS様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_blocks_shinjuku.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_blocks_nakano.html:
+    title: "POSレジ導入事例-塊肉＆麦酒 BLOCKS 中野店 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている塊肉＆麦酒 BLOCKS 中野店様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_blocks_nakano.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_vector_beer.html:
+    title: "POSレジ導入事例-Vector Beer 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているVector Beer様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_vector_beer.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_zenchafe.html:
+    title: "POSレジ導入事例-ZEN茶'fe ( ゼンチャフェ) 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているZEN茶'fe ( ゼンチャフェ) 様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_zenchafe.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_tsukinukeya.html:
+    title: "POSレジ導入事例-突きぬけや 水道橋店 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている突きぬけや 水道橋店様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_tsukinukeya.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_paikaji.html:
+    title: "POSレジ導入事例-ぱいかじ 銀座八丁目店 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているぱいかじ 銀座八丁目店様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_paikaji.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_lukas.html:
+    title: "POSレジ導入事例-LUKAS fried food & soda 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているLUKAS fried food & soda様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_lukas.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_kinniku_shokudo.html:
+    title: "POSレジ導入事例-筋肉食堂 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいている筋肉食堂様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_kinniku_shokudo.html"
+  case/case_cheval.html:
+    title: "POSレジ導入事例-ビストロ割烹　酒場留(シュヴァル) 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているビストロ割烹　酒場留(シュヴァル) 様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_cheval.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_ark.html:
+    title: "POSレジ導入事例-ark-PRIVATE LOUNGE/CAFE&DINING 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているark-PRIVATE LOUNGE/CAFE&DINING様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_ark.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  case/case_akarimado.html:
+    title: "POSレジ導入事例-カフェスタンドあかりまど 様｜"
+    description: "飲食店に特化したブレインのPOSレジシステムをご利用いただいているカフェスタンドあかりまど様の声をご紹介。"
+    canonical: "https://blayn.com/case/case_akarimado.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 販売パートナー
+#--------------------------------------
+  oem/partner.html:
+    title: "販売パートナー｜"
+    description: "国内だけでなく世界からも注目を集めているブレインのPOSレジを販売頂くパートナー様を募集しています。"
+    keyword: "OEM提供,販売パートナー,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/partner.css"
+    canonical: "https://blayn.com/oem/partner.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# プレスリリース
+#--------------------------------------
+  press/:
+    title: "お知らせ・記事｜"
+    description: "飲食店に特化したブレインのPOSレジに関するお知らせを掲載いたします。"
+    keyword: "プレスリリース,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/press.css"
+    canonical: "https://blayn.com/press/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+  press/180118.html:
+    title: "事業譲渡(ブレインメール)に関するお知らせ｜"
+    description: "ブレイン株式会社のプレスリリース"
+    canonical: "https://blayn.com/press/180118.html"
+  press/210129.html:
+    title: "飲食店特化型のPOSレジ【直感的な商品登録・編集方法】｜"
+    description: "飲食店に特化したブレインのPOSレジに関するお知らせを掲載いたします。"
+    canonical: "https://blayn.com/press/210129.html"
+  press/210201.html:
+    title: "飲食店特化型POSレジの【売上管理システム】｜"
+    description: "飲食店に特化したブレインのPOSレジに関するお知らせを掲載いたします。"
+    canonical: "https://blayn.com/press/210201.html"
+#--------------------------------------
+# 個人情報保護方針
+#--------------------------------------
+  privacy/:
+    title: "個人情報保護方針｜"
+    description: "ブレイン株式会社の個人情報保護方針を掲載しています。"
+    keyword: "個人情報保護方針,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/privacy.css"
+    canonical: "https://blayn.com/privacy/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 個人情報の取扱いについて
+#--------------------------------------
+  privacy/handling.html:
+    title: "個人情報の取扱いについて｜"
+    description: "ブレイン株式会社の個人情報の取扱いについて掲載しています。"
+    canonical: "https://blayn.com/privacy/handling.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# サービス利用規約
+#--------------------------------------
+  provision/index.html:
+    title: "ブレインレジスター サービス利用規約(プレミアム・ライト・無料プラン)｜"
+    description: "ブレインレジスター サービス利用規約を掲載しています。"
+    css: "/common/css/provision.css"
+    js: "../common/js/provision.js"
+    canonical: "https://blayn.com/provision/index.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# サービス利用規約（ABC店舗）
+#--------------------------------------
+  provision/abc.html:
+    title: "ブレインレジスター サービス利用規約(プレミアム・ライト・無料プラン)｜"
+    description: "ブレインレジスター サービス利用規約を掲載しています。"
+    css: "/common/css/provision.css"
+    canonical: "https://blayn.com/provision/abc.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 売買契約約款
+#--------------------------------------
+  provision/hard.html:
+    title: "ブレインレジスター ハードウェア 売買契約約款(プレミアム・ライト・無料プラン)｜"
+    description: "ブレインレジスター ハードウェア 売買契約約款を掲載しています。"
+    css: "/common/css/provision.css"
+    canonical: "https://blayn.com/provision/hard.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# BME利用規約
+#--------------------------------------
+  provision/bme.html:
+    title: "BME利用規約｜"
+    description: "BMEの利用規約を掲載しています。"
+    css: "/common/css/provision.css"
+    canonical: "https://blayn.com/provision/bme.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# お知らせ
+#--------------------------------------
+  info/:
+    title: "お知らせ｜"
+    description: "ブレインのPOSレジのご紹介。置く場所を選ばないだけでなく、インテリアとしてもお店の内観を損なわないデザイン性の実現と、飲食店専用の機能を搭載した、新しいPOSレジのかたちをご提案します。"
+    keyword: "POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/provision.css"
+    canonical: "https://blayn.com/info/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 特定商取引法に関する表示
+#--------------------------------------
+  legal/:
+    title: "特定商取引法に関する表示｜"
+    description: "ブレインのPOSレジのご紹介。置く場所を選ばないだけでなく、インテリアとしてもお店の内観を損なわないデザイン性の実現と、飲食店専用の機能を搭載した、新しいPOSレジのかたちをご提案します。"
+    keyword: "POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/legal.css"
+    canonical: "https://blayn.com/legal/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 会社概要
+#--------------------------------------
+  com/:
+    title: "会社情報｜"
+    description: "ブレイン株式会社の会社概要。ブレインは今までもこれからもずっとモノ作りの会社です。サービスは企画から開発、販売、サポートまですべて自社提供。メーカーとしてオリジナル製品、そして自社ブランドに強いこだわりを持っています。"
+    keyword: "会社情報,POSレジ,ポスレジ,ブレインレジスター,blayn,ブレイン"
+    css: "/common/css/com.css"
+    js: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCSrLUP19xYOPcn432SmedC948xXrd5m3g"
+    canonical: "https://blayn.com/com/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 専用端末
+#--------------------------------------
+  hardware/:
+    title: "専用端末｜"
+    description: "ブレインのハードウェア製品のご紹介。"
+    keyword: "Rectangle,Raindrop,ブレイン,blayn,POSレジ"
+    css: "/common/css/hardware.css"
+    js: "/common/js/hardware.js"
+    canonical: "https://blayn.com/hardware/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# Rectangle
+#--------------------------------------
+  rectangle/:
+    title: "Rectangle｜"
+    description: "これまでPOSレジが抱えていた、「大きい」「ダサい」「高い」「拡張性がない」という課題を、AndroidOSを採用することにより大幅解決しました。"
+    keyword: "Rectangle,ブレイン,blayn,POSレジ"
+    css: "/common/css/rectangle.css"
+    js: "/common/js/rectangle.js"
+    canonical: "https://blayn.com/rectangle/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# Raindrop
+#--------------------------------------
+  raindrop/:
+    title: "Raindrop｜"
+    description: "電源のない屋外環境では利用できなかったプリンターを、バッテリー搭載することによりモバイル化。いつでも、どこでも利用できるようになりました。"
+    keyword: "Raindrop,プリンター,モバイルプリンター,buletoothプリンター,ブレイン,blayn"
+    css: "/common/css/raindrop.css"
+    js: "/common/js/raindrop.js"
+    canonical: "https://blayn.com/raindrop/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 開発の想い
+#--------------------------------------
+  greeting/:
+    title: "開発の想い｜"
+    description: "ブレインは今までもこれからもずっとモノ作りの会社です。サービスは企画から開発、販売、サポートまですべて自社提供。メーカーとしてオリジナル製品、そして自社ブランドに強いこだわりを持っています。"
+    keyword: "ブレイン,blayn,Raindrop,Rectangle,POSレジ,モバイルプリンター"
+    css: "/common/css/greeting.css"
+    canonical: "https://blayn.com/greeting/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 軽減税率
+#--------------------------------------
+  kzt/:
+    title: "補助制度を利用したPOSレジ運用について｜"
+    description: "軽減税率対策補助金制度を利用したPOSレジ運用についてのご案内"
+    keyword: "ブレイン,blayn,Raindrop,Rectangle,POSレジ,モバイルプリンター"
+    css: "/common/css/kzt.css"
+    canonical: "https://blayn.com/kzt/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+#--------------------------------------
+# 軽減税率対応案内
+#--------------------------------------
+  kzt/migration/:
+    title: "消費税改正に向けての準備｜"
+    description: "2019年10月1日に施行予定の消費税改正に対応するためのシステムの変更点とお客さまに行って頂く商品データの更新方法についてご案内致します。"
+    keyword: "ブレイン,blayn,POSレジ,Rectangle"
+    css: "/common/css/kzt-migration.css"
+    canonical: "https://blayn.com/kzt/migration/index.html"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+
+  kzt/migration/setting_a.html:
+    title: "消費税の設定 [テイクアウト用のメニューを作成済みの場合]｜消費税改正に向けての準備｜"
+    description: "テイクアウト用のメニューを作成済みの場合の消費税の設定方法のご案内。2019年10月1日に施行予定の消費税改正に対応するためのシステムの変更点とお客さまに行って頂く商品データの更新方法についてご案内致します。"
+    canonical: "https://blayn.com/kzt/migration/setting_a.html"
+
+  kzt/migration/setting_b.html:
+    title: "消費税の設定 [テイクアウト用のメニューを作成してない場合]｜消費税改正に向けての準備｜"
+    description: "テイクアウト用のメニューを作成してない場合の消費税の設定方法のご案内。2019年10月1日に施行予定の消費税改正に対応するためのシステムの変更点とお客さまに行って頂く商品データの更新方法についてご案内致します。"
+    canonical: "https://blayn.com/kzt/migration/setting_b.html"
+
+#--------------------------------------
+# 販売パートナー
+#--------------------------------------
+  partner/:
+    title: "販売パートナープログラム｜"
+    description: "レジの導入を検討されている飲食店さまをブレインに紹介していただく「販売パートナー」を募集しています。"
+    keyword: "販売パートナー,ブレイン,blayn,Rectangle,POSレジ"
+    css: "/common/css/partner.css"
+    canonical: "https://blayn.com/partner/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"
+
+#--------------------------------------
+# BME
+#--------------------------------------
+  bme/:
+    title: "BME｜"
+    description: "グルメサイトに変わる新しい集客サービス。ネット上の店舗情報を一元管理。海外の旅行/グルメサイトにもお店の情報を掲載できるのでインバウンドの集客効果も。"
+    keyword: "BME,インバウンド対策,集客,ブレイン,blayn,POSレジ"
+    css: "/common/css/bme.css"
+    canonical: "https://blayn.com/bme/"
+    ogp: "https://blayn.com/common/img/base/og-img.jpg"

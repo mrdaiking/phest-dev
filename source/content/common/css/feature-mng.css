@@ -1,0 +1,324 @@
+@charset utf-8;
+@import url(feature.css);
+
+/* mng */
+.mng .inr{
+    padding-top: 56px;
+}
+
+/* notice */
+.notice{
+    background: url(../img/feature-mng/notice-bg.jpg) no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.notice .inr .detail{
+    width: 46%;
+    margin-right:0;
+}
+.notice .inr .detail ul{
+    display:flex;
+    margin: 32px auto;
+    justify-content: center;
+    width: 90%;
+}
+.notice .inr .detail ul li{
+    width:28%;
+    position:relative;
+    padding-top:28%;
+    text-align: center;
+    margin:auto;
+}
+.notice .inr .detail ul li:nth-child(1){
+    background: url(../img/feature-mng/notice-img01.svg) no-repeat;
+    background-size:100%;
+
+}
+.notice .inr .detail ul li:nth-child(2){
+    background: url(../img/feature-mng/notice-img02.svg) no-repeat;
+    background-size:100%;
+
+}
+.notice .inr .detail ul li:nth-child(3){
+    background: url(../img/feature-mng/notice-img03.svg) no-repeat;
+    background-size:100%;
+
+}
+.notice .inr .detail ul li span{
+    position:absolute;
+    margin:auto;
+    top:65%;
+    left:0;
+    right:0;
+    text-align:center;
+    width:100%;
+    font-size:13px;
+}
+
+/* summary */
+.summary{
+    background: url(../img/feature-mng/summary-bg.png) repeat;
+    background-size:15px;
+    color: #FFFFFF;
+}
+.summary .inr figure{
+    width: 45%;
+}
+
+/* design */
+.design{
+	background:#f5f5f5;
+}
+.design .inr figure{
+    order:1;
+    width: 48%;
+}
+.design .inr .detail{
+    order:2;
+}
+
+/* system-connect */
+.system-connect{
+	margin: auto;
+	padding: 10% 0;
+	border-bottom: solid 1px #ededed;
+}
+.system-connect h2{
+	text-align:center;
+	font-size: 28px;
+	font-weight: bold;
+}
+.system-connect > p{
+	text-align:center;
+	padding:16px 0 0
+}
+.system-connect ul{
+	max-width:  920px;
+	margin:  auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 64px 40px 0;
+}
+.system-connect ul li{
+	margin: 0 7.1425% 48px;
+	width: 23.809%;
+	max-width: 200px;
+}
+.system-connect ul li:nth-child(3n+1){
+	margin-left: 0;
+}
+.system-connect ul li:nth-child(3),.system-connect ul li:nth-child(6){
+	margin-right: 0;
+}
+.system-connect ul li > .logo{
+	border: solid 1px #DEDEDE;
+	position: relative;
+	width: 100%;
+	padding: 50%;
+	border-radius: 50%;
+}
+
+.system-connect ul li > .logo img{
+    position: absolute;
+    right:  0;
+    left: 0;
+    top: 50%;
+    margin: -1.5em auto 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.system-connect ul li > .logo img.freee{
+	max-width:176px;
+}
+
+.system-connect ul li > .logo img.yayoi{
+	max-width:122px;
+}
+
+.system-connect ul li > .logo img.mfcloud{
+	max-width:192px;
+}
+
+.system-connect ul li > .logo img.sevenbank{
+	max-width:182px;
+}
+
+.system-connect ul li > .logo img.pikaichi{
+	max-width:172px;
+}
+
+.system-connect ul li > .logo img.lessdaku{
+	max-width:172px;
+}
+
+.system-connect ul li > .logo img.ozax{
+	max-width:150px;
+	margin-top: -34%
+}
+
+.system-connect ul li .service h3{
+	text-align:center;
+	font-size:18px;
+	font-weight:  bold;
+	line-height: 1.3em;
+	padding-top: 24px;
+}
+
+.system-connect ul li .service h3 span{
+	display:block;
+	font-size:13px;
+	font-weight:  normal;
+}
+
+.system-connect ul li .service hr{
+	width:56px;
+	border-top:solid 1px #FF9802;
+	margin: 12px auto;
+}
+
+.system-connect ul li .service p{
+	font-size:13px;
+	text-align:left;
+}
+@media screen and (min-width: 1440px) {
+/* mng */
+.mng .inr{
+    padding-top: 56px;
+}
+
+/* system-connect */
+.system-connect{
+	padding: 8% 0;
+}
+}
+
+@media (max-width: 750px) and (min-width: 1px) {
+/* mng */
+.mng .inr{
+    padding-top: 40px !important;
+}
+.mng .inr .detail{
+    order:2;
+}
+.mng .inr figure{
+    order:1;
+    margin-bottom: 32px;
+}
+
+/* notice */
+.notice{
+    background: url(../img/feature-mng/notice-bg-sp.jpg) no-repeat center bottom 60%;
+    background-size: cover;
+    color:inherit;
+}
+.notice .inr{
+    padding-bottom:30%;
+}
+.notice .inr .detail{
+    width: 100%;
+}
+.notice .inr .detail ul li{
+    color:#ffffff;
+}
+.notice .inr .detail ul li span{
+    font-size:12px;
+}
+
+/* summary */
+.summary .inr figure{
+    width:80%;
+    margin-top: 32px;
+}
+
+/* design */
+.design .inr figure{
+    order:2;
+    margin-top:32px;
+    width:80%;
+}
+.design .inr .detail{
+    order:1;
+}
+
+/* system-connect */
+.system-connect{
+	padding: 80px 0;
+}
+.system-connect h2{
+	font-size: 22px;
+}
+.system-connect > p{
+	padding:16px 0;
+	width:90%;
+	margin:auto;
+	text-align:left;
+	font-size:  14px;
+}
+.system-connect ul{
+	display:inherit;
+	width:90%;
+	margin:auto;
+	padding-top: 32px;
+	padding-bottom:  0;
+}
+.system-connect ul li{
+	margin:auto;
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+	width: 100%;
+	max-width: inherit;
+	border-bottom:solid 1px #ededed;
+}
+.system-connect ul li:nth-child(3n+1){
+	margin-left: inherit;
+}
+.system-connect ul li:nth-child(3){
+	margin-right: initial;
+}
+.system-connect ul li:last-child{
+	margin-bottom: 0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+.system-connect ul li > .logo{
+	border: none;
+	position: relative;
+	padding: 0;
+	border-radius: initial;
+	text-align:  center;
+}
+
+.system-connect ul li > .logo img{
+    position: inherit;
+    right: inherit;
+    left: inherit;
+    top: inherit;
+    margin:auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.system-connect ul li > .logo img.ozax{
+	margin-top:0;
+}
+
+.system-connect ul li .service h3.ozax{
+	padding-top: 8px;
+}
+
+.system-connect ul li .service h3{
+	padding-top: 24px;
+	font-size:15px;
+}
+
+.system-connect ul li .service h3 span{
+	font-size:10px
+}
+
+.system-connect ul li .service hr{
+	width: 80px;
+}
+}

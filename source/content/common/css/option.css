@@ -1,0 +1,153 @@
+@charset utf-8;
+@import url('https://fonts.googleapis.com/css?family=Oswald:400');
+#container {
+    max-width: inherit;
+    margin-bottom: inherit;
+}
+.mobile-order {
+
+}
+
+.banner-image .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1040px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.banner-image .content .content-description {
+  order: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-image .content .content-description >h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.banner-image .content figure >img {
+    width: 285px;
+    height: 270px;
+}
+
+.label {
+  max-width: inherit;
+  width: 200px;
+  height: 32px;
+  padding: 10px 16px 8px;
+  border: solid 1px #606060;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #606060;
+}
+
+.mobile_order .inr {
+  background: url('../img/option/mobile-order/mobile_order_bg.png') no-repeat;
+  background-size: cover;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 450px;
+}
+
+.mobile_order .content figure {
+  order: 1;
+  margin-left: 80px;
+}
+
+.uber-eats .inr {
+  background: url('../img/option/uber-eats/uber_eats_bg.png') no-repeat;
+  background-size: cover;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 450px;
+}
+
+.uber-eats .content figure {
+  order: -1;
+  margin-right: 80px;
+}
+
+
+.take-out .inr {
+  background: url('../img/option/take-out/take_out_bg.png') no-repeat;
+  background-size: cover;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 450px;
+}
+
+.take_out .content figure {
+  order: 1;
+  margin-left: 80px;
+}
+
+.others .inr .service-list ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #d4d4d4;
+}
+.others .inr .service-list ul li figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+}
+
+.others {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #d4d4d4;
+  margin-bottom: 100px;
+}
+
+.others .inr h2{
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #606060;
+}
+
+
+
+
+@media screen and (min-width: 1080px) {
+
+}
+@media (min-width:1px)and (max-width:1080px) {
+
+}
+
+@media (min-width:1px)and (max-width:960px) {
+section .inr{
+	padding: 8% 6%;
+}
+}
+
+@media (max-width: 750px) and (min-width: 1px) {
+#container {
+    /* padding-top: 32px; */
+    /* margin-bottom: 5%; */
+}
+}
+
+@media (min-width: 750px){
+
+}

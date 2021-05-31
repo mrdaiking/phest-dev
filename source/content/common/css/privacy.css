@@ -1,0 +1,134 @@
+@charset utf-8;
+
+#container p.text{
+	padding:0 0 40px 0;
+}
+
+#container p.text span{
+	display:block;
+	padding-top:10px
+}
+
+#headImage {
+	height: inherit;
+	display: inherit;
+}
+#headImage h2.title {
+	font-size: 32px;
+	font-weight: 400;
+	padding-top:56px;
+	text-align: left;
+}
+
+.privacy > section{
+	padding-bottom:40px;
+}
+
+.privacy > section h3.sub{
+	border-bottom:dotted 1px #4A4A4A;
+	display:block;
+	font-size:22px;
+	font-weight:400;
+	margin-bottom:15px;
+}
+
+.privacy > section h4{
+	margin-bottom:10px;
+}
+
+.privacy > section p{
+	padding-bottom:15px;
+}
+
+.privacy .info{
+	background:#ededed;
+	padding:30px 30px ;
+}
+
+.privacy .info > p{
+	padding:0;
+}
+
+.privacy ol{
+	margin: 0;
+	padding: 0;
+}
+
+.privacy ul li,
+.privacy ol li{
+	margin-bottom: 10px;
+}
+
+.privacy ul.list{
+	margin: 0 0 30px 20px;
+}
+
+.privacy ul.list:last-child{
+	margin: 0 0 0 20px;
+}
+
+.privacy ul.list li{
+	list-style:disc;
+	margin-left:20px;
+}
+
+.privacy dl.handling{
+}
+
+.privacy dl.handling dt{
+	border-bottom:dotted 1px #4A4A4A;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.privacy dl.handling dd{
+	padding:8px 0 32px;
+}
+
+@media (min-width:1px)and (max-width:1040px) {
+.privacy{
+	padding: 0 5%;
+}
+	#headImage h2.title {
+	font-size: 22px;
+	padding: 40px 0 16px 40px;
+}
+
+}
+
+@media (min-width:1px)and (max-width:750px) {
+#container {
+	margin-bottom: 0;
+}
+
+#headImage {
+	height: inherit;
+	display: inherit;
+}
+#headImage h2.title {
+	font-size:  18px;
+	padding: 20px 0 16px 20px;
+}
+
+#container p,
+#container li{
+	font-size:14px !important;
+}
+
+.privacy > section h3.sub{
+	font-size:16px;
+	margin-bottom:8px;
+}
+
+.privacy dl.handling{
+	margin:16px 0;
+}
+.privacy dl.handling dt{
+	font-size:14px;
+	font-weight:bold;
+}
+.privacy dl.handling dd{
+	padding:8px 0 24px;
+}
+}

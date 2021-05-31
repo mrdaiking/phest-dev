@@ -1,0 +1,123 @@
+@charset utf-8;
+#container {
+	margin-top: 60px;
+	max-width: 100%;
+}
+#container p.text {
+	margin-bottom: 30px;
+}
+section {
+	padding-bottom: 40px;
+}
+section .img {
+	max-height: 500px;
+}
+section .inner {
+	padding: 6% 0;
+}
+section h2.sub {
+	font-family: "pragmatica-web-condensed", sans-serif;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+section h2.sub::after {
+	content: "";
+	border-top: solid 1px #B00002;
+	width: 60px;
+	display: block;
+	margin: auto;
+}
+section p {
+	padding: 0 0 50px;
+	max-width: 600px;
+	margin: auto;
+}
+section .box {
+	margin: auto;
+	width: 550px;
+	overflow: hidden;
+}
+section .box .awards {
+	float: left;
+}
+section .awards a {
+	border: solid 2px #222328;
+	padding: 18px;
+	width: 260px;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+section .box .btn {
+	float: right;
+}
+section .btn a:hover {
+	background: #f50044;
+	border:solid 1px #f50044;
+	color:#fff;
+}
+
+@media(min-width:1200px) {
+section .img {
+	overflow: hidden
+}
+}
+
+@media(min-width:1px)and (max-width:1024px) {
+#container {
+	margin-top: 50px;
+}
+section .inner {
+	width: 80%
+}
+section .img {
+	overflow: hidden;
+	min-height: 300px !important
+}
+}
+
+@media(min-width:1px)and (max-width:750px) {
+#container {
+	margin-top: 50px;
+}
+section .inner {
+	width: 80%
+}
+section h2.sub {
+	font-size: 26px;
+	font-weight: 400;
+	padding-top: 20px;
+}
+section p {
+	padding: 20px 0 40px;
+}
+.service .inner br {
+	display: none
+}
+section .btn a {
+	padding: 0;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+section .box {
+	width: 100%;
+}
+section .box .awards {
+	float: none;
+	margin-bottom: 10px;
+}
+section .awards a {
+	padding: 0;
+	height: 50px;
+	line-height: 50px;
+}
+section .box .btn {
+	float: none;
+}
+}
+
+@media(min-width:1px)and (max-width:480px) {
+}

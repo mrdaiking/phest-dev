@@ -1,0 +1,280 @@
+@charset utf-8;
+
+#container{
+	width: 100% !important;
+	max-width:inherit;
+	margin-bottom:0;
+}
+
+/*functionList*/
+.functionList .inr{
+	max-width:880px;
+	margin:auto;
+	padding: 64px 0;
+}
+/* nav */
+.functionList nav{
+	background:#F4F2ED;
+	margin-bottom: 32px;
+	padding: 16px;
+}
+.functionList nav ul{
+	display:flex;
+}
+.functionList nav ul li{
+	width: 32.2%;
+	background:#ffffff;
+	margin: 0 auto;
+}
+.functionList nav ul li a{
+	height: 64px;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	color:#606060;
+	font-weight:bold;
+}
+.functionList nav ul li a:hover{
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0px 2px 4px -2px #887d75;
+    box-shadow: 0px 2px 4px -2px #887d75;
+}
+.functionList nav ul li a span{
+	margin:auto 0 auto 16px;
+}
+.functionList nav li img{
+	height:23px;
+	width:auto;
+	margin:auto 0;
+}
+.functionList nav.mng ul li{
+	width:49%;
+}
+.functionList .inr h2{
+	font-size: 16px;
+	text-align:center;
+	background: #8e919a;
+	color: #ffffff;
+	padding: 4px;
+}
+
+.functionList .inr .outline{
+	width:100%;
+	margin-bottom:48px;
+}
+
+.functionList .inr .outline tr{
+	border:solid 1px #e0dfd9;
+}
+
+.functionList .inr .outline th,
+.functionList .inr .outline td{
+	padding: 8px 10px;
+}
+
+.functionList .inr .outline th{
+	background:#f9f9f9;
+	border-right:solid 1px #e0dfd9
+	;
+	width:20%;
+}
+
+.functionList .inr .outline thead *{
+	display:none;
+	background: #15c592;
+	color: #fff;
+	font-weight:bold;
+	padding: 2px 10px;
+}
+
+/*hardware*/
+.spec .inr figure.size{
+	margin: 48px auto;
+	text-align:center;
+}
+.spec .inr figure.size > .img-reg{
+	max-width: 540px;
+}
+.spec .inr figure.size > .img-drawer{
+	max-width: 448px;
+}
+.spec .inr figure.size > .img-acm{
+	max-width: 426px;
+}
+.spec .inr figure.size > .img-k-printer{
+	max-width: 340px;
+}
+.spec .inr figure.size > .img-handy{
+	max-width: 232px;
+}
+.spec .inr figure.size > .img-router{
+	max-width: 400px;
+}
+.spec .inr h2{
+	font-size: 20px;
+	text-align:inherit;
+	background: none;
+	color: inherit;
+	padding:inherit;
+	font-weight:bold;
+	border-bottom: #606060 solid 1px;
+}
+.spec .inr .item{
+	margin-bottom: 120px;
+}
+
+/* #reg */
+.spec .inr #reg .detail{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+}
+
+.spec .inr #reg .detail img{
+	width:50%;
+	height:auto;
+}
+
+/* #drawer */
+.spec .inr #drawer .item h3{
+	font-size: 15px;
+	font-weight:bold;
+	margin-bottom:8px
+}
+.spec .inr #drawer .item .outline:nth-child(4){
+	margin-bottom:24px;
+}
+
+/* #router */
+.spec .inr #other .router .outline{
+	margin-bottom:40px;
+}
+.spec .inr #other .router .network{
+	margin:0 auto 96px;
+}
+.spec .inr #other .router .network img.sp{
+	display:none;
+}
+
+
+@media screen and (min-width: 1440px) {
+.functionList .inr{
+	/* padding-top: 64px; */
+}
+}
+
+@media (min-width:1px)and (max-width:960px) {
+.functionList .inr{
+	padding-left: 6%;
+	padding-right: 6%;
+}
+}
+
+@media (min-width:1px)and (max-width:750px) {
+.functionList{
+	padding-top: 40px;
+}
+
+/* nav */
+.functionList nav{
+	padding:12px;
+	margin:32px 0;
+}
+.functionList nav ul li a{
+	flex-wrap:wrap;
+}
+.functionList nav ul li a span{
+	width:100%;
+	text-align:center;
+	margin: 8px auto 0;
+	font-size:12px;
+}
+.functionList nav.reg li img{
+	height:20px;
+	width:auto;
+	margin:auto 0;
+}
+
+.functionList .inr{
+	padding: 0 6%;
+}
+.functionList .inr h2{
+	font-size: 13px;
+	text-align:left;
+	padding-left:8px;
+}
+.functionList .inr .outline{
+	margin-bottom:32px;
+}
+
+.functionList .inr .outline th{
+	width: 32%;
+}
+.functionList .inr .outline th,
+.functionList .inr .outline td{
+	font-size:12px;
+	padding:4px 8px;
+}
+
+/*hardware*/
+.functionList nav.hardware li:nth-child(1) img,
+.functionList nav.hardware li:nth-child(2) img{
+	height:18px;
+	width:auto;
+	margin:auto 0;
+}
+
+.spec .inr h2{
+	padding:inherit;
+}
+.spec .inr figure.size{
+	width: 100%;
+}
+.spec .inr figure.size > .img-k-printer{
+	max-width: 272px;
+}
+.spec .inr figure.size > .img-handy{
+	max-width: 200px;
+}
+.spec .inr figure.size > .img-router{
+	max-width: 256px;
+}
+.spec .inr .item{
+	margin-bottom: 80px;
+}
+.spec .inr .item .outline{
+	margin-bottom: 0;
+}
+
+/* #reg */
+.spec .inr #reg .detail{
+	flex-wrap:wrap;
+	margin:32px auto;;
+	width:80%;
+}
+
+.spec .inr #reg .detail img{
+	width:100%;
+	height:auto;
+}
+
+/* #drawer */
+.spec .inr #drawer .item h3{
+	font-size: 12px;
+}
+
+/* router */
+.spec .inr #other .router .network img.pc{
+	display:none;
+}
+.spec .inr #other .router .network img.sp{
+	display:block;
+}
+}

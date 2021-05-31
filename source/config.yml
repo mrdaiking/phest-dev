@@ -1,0 +1,17 @@
+home:
+  local: http://www.blayn.com/
+  staging: http://54.178.139.32 #開発環境でのブラウザから見たルートディレクトリ
+  production: http://www.blayn.com/ #本番環境でのブラウザから見たルートディレクトリ
+description:
+basetpl:
+  sp:
+    regex: sp/.*
+    tpl: sp/_base.tpl
+  default:
+    regex: .*
+    tpl: _base.tpl  #サイトのベースとなるテンプレートファイル名を指定
+buildclear: 1 #ビルド時に/outputフォルダの中身を削除する場合は'1'しない場合は'0'
+sitemap: 1 #sitemap.xmlを生成する場合は'1'しない場合は'0'
+robotstxt: 1 #robots.txtを生成する場合は'1'しない場合は'0'
+compilejs: 0 #JavaScriptの圧縮処理(minify)を本番環境用ビルド時におこなう場合は'1'しない場合は'0'
+compilecss: 0 #CSSの圧縮処理(minify)を本番環境用ビルド時におこなう場合は'1'しない場合は'0'

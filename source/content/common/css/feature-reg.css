@@ -1,0 +1,220 @@
+@charset utf-8;
+@import url(feature.css);
+
+/* feature */
+.feature .inr{
+    padding-top: 56px;
+}
+.feature .inr .detail{
+	margin-left:0;
+}
+.feature .inr figure{
+	width: 52%;
+}
+.feature h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.feature .btn{
+    border:solid 1px #FF9700;
+    border-radius: 20px;
+    margin: 48px auto 0;
+    max-width: 160px;
+	text-align: center;
+}
+.feature .btn a{
+    padding:8px;
+    color:#eb8602;
+	display: block;
+}
+
+/* menu-edit */
+.menu-edit{
+    background: #F5F5F5;
+}
+.menu-edit figure{
+    order:1;
+    width:45%;
+}
+.menu-edit .detail{
+    order:2;
+}
+
+/* check */
+.check .inr{
+    max-width: 100%;
+    padding-bottom: 0;
+    padding-top: 96px;
+}
+.check .inr figure.img01{
+    order: 1;
+    padding-bottom: 4%;
+    width: 31%;
+}
+.check .inr figure.img01 img{
+	width: 85%;
+}
+.check .inr .detail{
+    order: 2;
+}
+.check .inr figure.img02{
+    order: 3;
+    margin-bottom: 0;
+    padding-right: 5%;
+    width: 30%;
+}
+.check .inr .detail{
+    width: 28.736111%;
+    padding-bottom: 6%;
+}
+.check .inr .detail h2{
+    text-align: center;
+}
+
+/* 3monitor */
+.monitor{
+    background: url(../img/feature-reg/3monitor-bg.jpg) no-repeat;
+    background-size: cover;
+    color:#FFFFFF;
+}
+.monitor .inr{
+    padding-bottom:0;
+}
+.monitor .inr .detail{
+    margin-bottom:12%;
+}
+.monitor .inr .detail .btn{
+    border:solid 1px #FFFFFF;
+    border-radius: 20px;
+    margin: 48px auto 0;
+    max-width: 160px;
+	text-align: center;
+}
+.monitor .inr .detail .btn a{
+    padding:8px;
+    color:#FFFFFF;
+	display: block;
+	background:none;
+}
+.monitor .inr figure{
+    margin-top:6%;
+    width: 40%;
+}
+
+/* system */
+.system .inr .detail{
+    width: 72%;
+    margin-bottom: 56px;
+}
+.system .inr .detail h2{
+    text-align:center;
+    margin-bottom: 32px;
+}
+.system .inr figure{
+    max-width: 720px;
+    margin:auto;
+}
+
+
+@media screen and (min-width: 1440px) {
+/* feature */
+.feature .inr{
+    padding-top: 56px;
+}
+/* check */
+.check{
+	background:url(../img/feature-reg/check-img03.jpg) no-repeat center;
+	background-size: cover;
+}
+.check .inr{
+	min-height: 520px;
+}
+.check .inr figure.img01,
+.check .inr figure.img02{
+	display:none;
+}
+}
+
+@media (max-width: 1040px) and (min-width: 1px) {
+.feature h1{
+    font-size: 2.5vw;
+}
+}
+
+@media (min-width:1px)and (max-width:750px) {
+/* feature */
+.feature .inr{
+    padding-top: 40px !important;
+}
+.feature .inr figure{
+	order:1;
+	margin-bottom:32px;
+	width: 100%;
+}
+.feature .inr .detail{
+	order:2;
+}
+.feature .inr .detail .btn{
+    margin: 24px auto;
+}
+.feature .inr .detail .btn a{
+    font-size:14px;
+}
+.feature .inr .detail h1{
+    font-size: 22px;
+    text-align:center;
+}
+
+/* menu-edit */
+.menu-edit .inr .detail{
+    order:1;
+}
+.menu-edit .inr figure{
+    order:2;
+    width:80%;
+    margin-top:32px;
+}
+
+/* check */
+.check .inr{
+    max-width: 100%;
+    padding-bottom:0 !important;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 12%;
+}
+.check .inr .detail{
+    width: 100%;
+}
+.check .inr figure.img01{
+	display:none;
+}
+.check .inr figure.img02{
+	width:80%;
+	overflow: hidden;
+}
+.check .inr figure.img02 img{
+	margin-bottom:-30%;
+}
+
+/* 3monitor */
+.monitor{
+    background: url(../img/feature-reg/3monitor-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.monitor .inr{
+    padding-bottom:0 !important;
+}
+.monitor .inr figure{
+	width:80%;
+}
+.monitor .inr .detail .btn a{
+    font-size:14px;
+}
+
+/* system */
+.system .inr .detail{
+    width: 100%;
+}
+}

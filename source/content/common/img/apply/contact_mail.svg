@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon_mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="シミュレーション" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DEV_ADMIN_UI-1675_プレミアムプラン" transform="translate(-654.000000, -1441.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(654.000000, 1441.000000)">
+                <path d="M18,0 C8.05907812,0 0,8.05900781 0,18 C0,27.9409219 8.05907812,36 18,36 C27.9409219,36 36,27.9409219 36,18 C36,8.05900781 27.9409922,0 18,0 Z" id="Shape-Copy" fill="#2D8CFF"></path>
+                <g id="メールの無料アイコン-(1)" transform="translate(9.000000, 12.000000)" fill="#FFFFFF">
+                    <path d="M17.457293,0 L0.542742188,0 C0.243351562,0 0,0.250749801 0,0.559785709 L0,1.66070122 L9,7.875 L18,1.66012162 L18,0.559785709 C18,0.250749801 17.7566484,0 17.457293,0 Z" id="Path"></path>
+                    <path d="M0,4.50054304 L0,11.4036553 C0,12.5618615 0.971753906,13.5 2.17198828,13.5 L15.8280117,13.5 C17.0282812,13.5 18,12.5618615 18,11.4036553 L18,4.5 L9,10.3228666 L0,4.50054304 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

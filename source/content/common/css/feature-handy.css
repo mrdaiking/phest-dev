@@ -1,0 +1,143 @@
+@charset utf-8;
+@import url(feature.css);
+
+/* cost */
+.cost .inr{
+	max-width: 960px;
+	padding-top: 56px;
+}
+.cost .inr figure{
+	margin:auto;
+}
+.cost .inr figure img{
+	max-width:300px;
+}
+
+
+/* realtime */
+.realtime{
+    background: #F5F5F5;
+}
+.realtime .inr{
+	max-width: 840px;
+	padding-bottom: 0;
+}
+.realtime .inr figure{
+	order:1;
+	margin: auto;
+}
+.realtime .inr figure img{
+	max-width: 248px;
+}
+.realtime .inr .detail{
+	order:2;
+	margin-right: 0;
+	width: 50%;
+}
+
+/* order */
+.order .inr .detail{
+	width: 72%;
+	margin-bottom: 56px;
+}
+.order .inr .detail h2{text-align: center;}
+.order .posotion_fix{
+	display: flex;
+	max-width: 680px;
+	margin: auto;
+	background: url(../img/feature-handy/step_bg.png) no-repeat center;
+}
+.order .posotion_fix .col{
+	margin: 0 auto;
+	width: 24%;
+	max-width:173px;
+}
+.order .posotion_fix .col:first-child{
+	margin-left: 0;
+}
+.order .posotion_fix .col:last-child{
+	margin-right: 0;
+}
+.order .posotion_fix .col h3{
+	font-size:16px;
+	font-weight: bold;
+	padding: 12px 0;
+	text-align:center;
+}
+.order .posotion_fix .col p{
+	font-size:14px;
+}
+
+
+@media screen and (min-width: 1440px) {
+.cost .inr{
+	padding-top: 56px;
+}
+}
+
+@media (max-width: 1040px) and (min-width: 1px) {
+}
+
+@media (min-width:1px)and (max-width:750px) {
+/* cost */
+.cost .inr{
+	padding-top: 40px !important;
+}
+.cost .inr figure{
+	width:60%;
+	margin-bottom:32px;
+}
+.cost .inr .detail{
+	order:2;
+}
+/* order */
+.order .inr .detail{
+	width: 100%;
+	margin-bottom: 32px;
+}
+.order .inr .detail p > br{
+	display:none;
+}
+.order .posotion_fix{
+	padding: 0;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	background: url(../img/feature-handy/step_bg.png) no-repeat center;
+	background-size: 90%;
+}
+.order .posotion_fix .col{
+	width:100%;
+	text-align:center;
+}
+.order .posotion_fix .col img{
+	width:auto;
+	max-height: 170px;
+	padding: 0;
+}
+.order .posotion_fix .col h3{
+	padding-top: 16px;
+	padding-bottom:4px;
+	font-size: 13px;
+}
+.order .posotion_fix .col p{
+	display:none
+}
+
+/* realtime */
+.realtime .inr.flex{
+	padding-bottom: 0;
+}
+.realtime .inr figure{
+	order:2;
+	width: 60%;
+	margin: 32px auto 0;
+	overflow: hidden;
+}
+.realtime .inr figure img{
+	margin-bottom:-40%;
+}
+.realtime .inr .detail{
+	order:1;
+	width: 100%;
+}
+}

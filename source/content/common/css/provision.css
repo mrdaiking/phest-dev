@@ -1,0 +1,432 @@
+@charset utf-8;
+ul.plan{
+	display:flex;
+	margin-top: 40px;
+	width: 100%;
+	max-width: 480px;
+}
+
+ul.plan > li{
+	text-align:center;
+	width:48%;
+	margin:auto;
+}
+
+ul.plan > li a{
+	display:inline-block;
+	background:#eee;
+	color:#606060;
+	width: 100%;
+	height: 100%;
+	padding: 12px 4px;
+}
+
+ul.plan > li a.on{
+	background:#e77d29;
+	color:#FFFFFF;
+}
+
+#premium, #free{
+	margin-top: -240px;
+	padding-top: 240px;
+}
+#free{
+	display:none;
+}
+#headImage {
+	height:inherit;
+}
+#container p.text {
+	padding: 0 0 40px 0;
+}
+section {
+	padding-bottom: 30px;
+}
+section h3.sub {
+	border-bottom: dotted 1px #4A4A4A;
+	display: block;
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+section h4 {
+	margin-bottom: 10px;
+}
+section p {
+	padding-bottom: 15px;
+}
+.area_provision h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.area_provision h4 {
+	font-size: 20px;
+	border-bottom: dotted 1px #b6b6b6;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+.area_provision ol {
+	padding: 5px 0 0 30px;
+}
+.area_provision ol.list {
+	padding-bottom: 30px;
+}
+.area_provision li {
+	font-size: 15px;
+	padding: 2px 0 20px;
+	line-height: 1.7em;
+	list-style: decimal;
+}
+.area_provision li ol li {
+	list-style: none;
+	text-indent: -2.5em;
+	padding-bottom: 0px !important;
+}
+
+/* brackets+number */
+.area_provision ol.brackets > li {
+	list-style-type:none;
+	list-style-position:inside;
+	counter-increment: cnt;
+}
+.area_provision ol.brackets > li:before {
+  display: marker;
+  content: "(" counter(cnt) ") ";
+}
+
+.warranty li ol li {
+	list-style: none;
+	text-indent: -1.2em;
+	padding-bottom: 0px !important;
+}
+section.info ol {
+	margin-bottom: 10px;
+}
+section.info ol li {
+	list-style: none;
+}
+section.info {
+	width: 750px;
+	margin: 0 auto;
+}
+section.date {
+	float: left;
+	width: 100px;
+	height: auto;
+}
+section.date div {
+	width: auto;
+	height: 35px;
+	padding: 8px 10px;
+	background: #1E1E1E;
+	color: #fff;
+}
+section.info h3 {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+section.info .bold {
+	font-weight: bold;
+	display: block;
+	margin-top: 15px;
+}
+section.infoWrap {
+	width: 850px;
+	margin: 0 auto;
+	float: left;
+}
+.schedule{
+	background: #efefef;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+.schedule h4{
+	font-weight:bold;
+	margin-bottom: initial;
+}
+
+.schedule aside{
+	font-size:10px;
+}
+
+/*anchor Link*/
+section.infoWrap.anchor {
+	margin-top: -96px;
+	padding-top: 96px;
+}
+
+/*20180116_ecsite*/
+section#ecsite{
+	margin-top: -96px;
+	padding-top: 96px;
+}
+.infoWrap > .area_provision {
+	width: 750px;
+	margin: 0 auto;
+}
+.infoWrap .area_provision li {
+	list-style: none;
+}
+.infoWrap > .area_provision > h4:first-child {
+	padding-top: 0;
+}
+.infoWrap > .area_provision > ol {
+	padding: 5px 0 0 25px;
+}
+.infoWrap > .area_provision > ol > li > ol {
+	padding-left: 40px;
+}
+.infoWrap > .area_provision > ol > li {
+	list-style: none;
+	text-indent: -0.9em;
+}
+.infoWrap > .area_provision > ol > li > ol > li {
+	text-indent: -2.5em;
+}
+.warranty table {
+	width: 45%;
+	border: 1px solid #ccc;
+}
+.warranty td {
+	padding: 10px 20px;
+}
+.warranty tr:first-child {
+	background: #efefef;
+}
+.warranty tr td:nth-child(3) {
+	text-align: right;
+}
+.infoWrap .area_provision .edit {
+	font-weight: bold;
+	font-size: 16px;
+	background: #efefef;
+	padding: 5px 0 5px 10px;
+	margin-bottom: 10px;
+}
+#headImage h2.title {
+	font-size: 32px;
+	font-weight: 400;
+	padding-top: 56px;
+	padding-bottom: 8px;
+	text-align: left;
+}
+#headImage h2.title2nd {
+	font-size: 32px;
+	font-weight: 400;
+	padding-top: 56px;
+	text-align: left;
+	padding-bottom: 0px;
+}
+.area_provision figure {
+	margin: 1em 0;
+}
+#headImage h2 .plan {
+	display: table !important;
+	font-size: 14px;
+	background: #c2c2c2;
+	padding: 5px 8px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*maintenance*/
+.maintenance .schedule{
+	background: #efefef;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.maintenance .schedule{
+	background: #efefef;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.maintenance .schedule h4{
+	font-weight:bold
+}
+
+.maintenance .schedule aside{
+	font-size:10px;
+}
+
+.maintenance .unablelist{
+	padding-left:20px;
+	margin-bottom: 32px;
+}
+.maintenance .unablelist li{
+	list-style:disc;
+}
+.maintenance .support{
+	padding: 16px 0;
+}
+/*ec-service*/
+.ec-service .capture .block{
+	margin-bottom:24px;
+}
+.ec-service .capture .block aside{
+	text-align:center;
+	padding:8px;
+}
+.ec-service .notice{
+	background:#efefef;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+.ec-service .notice > ol{
+	padding-left:20px
+}
+.ec-service .notice > ol > li{
+	list-style: decimal;
+	padding-bottom: 5px;
+}
+.ec-service .unablelist{
+	padding-left:20px;
+}
+.ec-service .unablelist li{
+	list-style:disc;
+}
+#nwengineer,#hardware,#director,#desiner,#backoffice {
+    display: none;
+}
+/*info_181226*/
+.sp_181226{
+	display:none;
+}
+@media (min-width:1px)and (max-width:750px) {
+.pc_181226{
+	display:none;
+}
+.sp_181226{
+	display:block;
+}
+}
+
+@media (min-width:1px)and (max-width:1040px) {
+#headImage h2.title, #headImage h2.title2nd {
+	font-size: 22px;
+	padding: 40px 0 16px 40px;
+}
+#headImage {
+	height: auto;
+}
+.area_provision {
+	padding: 0 5%;
+}
+section.infoWrap {
+	width: 100%;
+	padding: 0 5%;
+}
+section.info {
+	width: 100%;
+}
+.infoWrap > .area_provision {
+	width: 100%;
+	margin: 0 auto;
+}
+section.date {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+section.date div {
+	width: 100%;
+	height: 35px;
+	padding: 8px 10px;
+	background: #72706d;
+	color: #fff;
+}
+.infoWrap > .area_provision > ol > li > ol {
+	padding-left: 30px;
+}
+.paddingNone {
+	padding: 0;
+}
+.area_provision h4 {
+	padding-top: 30px;
+}
+.warranty table {
+	width: 70%;
+}
+}
+.infoWrap .add {
+}
+.infoWrap .add ol li {
+	list-style-type: decimal;
+}
+.infoWrap .add h4 {
+	font-size: 16px;
+	border-bottom: solid 1px #f3f3f3;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+@media (min-width:1px)and (max-width:750px) {
+ul.plan{
+	margin: 24px auto 0;
+	
+	width:90%;
+}
+
+ul.plan > li{
+	width:50%;
+}
+#headImage h2.title {
+	padding: 20px 20px 15px;
+}
+#headImage h2.title2nd {
+	padding: 20px 20px 0px;
+}
+.area_provision h4 {
+	padding: 5px 0;
+	margin-bottom: 5px;
+}
+.area_provision h4 {
+	font-size: 17px;
+	margin-top: 20px;
+}
+section.date {
+	padding-bottom: 12px;
+}
+section.info h3 {
+	font-size: 18px;
+	padding: 8px 0;
+}
+section p {
+	font-size: 14px;
+}
+.area_provision li {
+	padding: 2px 0 10px;
+}
+.area_provision ol {
+	padding: 5px 0 0 20px;
+}
+#headImage h2.title, #headImage h2.title2nd {
+	font-size: 18px;
+}
+.area_provision li {
+	font-size: 14px;
+}
+.warranty table {
+	width: 100%;
+	font-size: 13px;
+}
+.warranty td {
+	padding: 5px 8px;
+}
+#headImage h2 .plan {
+	width: 100%;
+}
+/*ec-service*/
+.ec-service .capture .block{
+	margin-bottom:8px;
+}
+.ec-service .capture .block aside{
+	text-align:left;
+	font-size:12px;
+}
+}

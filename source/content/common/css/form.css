@@ -1,0 +1,849 @@
+@charset utf-8;
+
+.form {
+	margin: 80px auto;
+	max-width: 1040px;
+}
+.form .inr {
+	max-width: 560px;
+	margin: 0px auto ;
+}
+
+/*電話問合せ*/
+.form > .tel{
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom: 64px;
+	padding-top: 40px;
+}
+
+.form .tel h2{
+	width:100%;
+	margin-bottom: 24px;
+}
+
+.form .tel .block{
+	max-width:360px;
+	width:50%;
+	background:#f6f6f6;
+	padding: 24px 32px 16px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form .tel .block h3{
+	text-align:center;
+	padding-bottom: 8px;
+	margin: auto;
+}
+
+.form .tel .block.new{
+	margin-right:20px;
+	margin-left:auto;
+}
+
+.form .tel .block.support{
+	margin-left:20px;
+	margin-right:auto;
+}
+
+.form .tel .block .tel {
+	color: #f09a0f;
+	font-size: 49px;
+	background: url(../img/contact/icon_tel.png)no-repeat top 6px left;
+	line-height: 0.8em;
+	padding-left: 28px;
+	margin: auto;
+}
+.form .tel .block .tel a{
+	color: #f09a0f;
+}
+.form .tel .block.support .tel {
+	color: #42aae0;
+	background: url(../img/contact/icon_tel2.png)no-repeat top 6px left;
+}
+.form .tel .block.support .tel a{
+	color: #42aae0;
+}
+.form .tel .block .tel span {
+	color: #363636;
+	font-size: 13px;
+	display: block;
+	font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+/*ステップ*/
+.flow{
+	clear:both;
+	/* height:48px; */
+	margin-bottom: 30px;
+	background:url(../img/contract-sheet/flow_bg.png) no-repeat top 20px center;
+	background-size: 80%;
+}
+.flow ol{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flow li{
+	margin:0 auto;
+	width:16.6666%;
+	text-align:center;
+	padding-top:40px;
+	background:url(../img/contract-sheet/flow.png) no-repeat top 10px center;
+}
+.flow li.on{
+	background:url(../img/contract-sheet/flow_on.png) no-repeat top 10px center;
+}
+/*プレミアム版用*/
+.flow.premiumstep{
+	background:url(../img/contract-sheet/flow_bg.png) no-repeat top 20px center;
+	background-size: 67%;
+	margin-bottom: 8%;
+}
+
+/*規約*/
+.form.top{
+	margin-top:0;
+}
+.topImage{
+	margin-bottom:64px;
+}
+.codeFloat{
+	padding: 0 0 40px 0;
+}
+
+.form.top ul.codeFloat{
+	display:flex;
+	width:  80%;
+	margin:  auto;
+}
+
+.form.top ul.codeFloat li{
+	margin:auto;
+}
+
+.form.top ul.codeFloat li label{
+	padding:20px
+}
+/*フォームのタイトルなど*/
+.form h2.head {
+	text-align:center;
+	font-size:32px;
+}
+.form h2.head.mail {
+	margin-bottom:30px
+}
+.main_cont.form h2.head {
+	margin-bottom:30px
+}
+.form p {
+	margin-bottom:30px;
+	text-align:center;
+}
+.form span.must{
+	color:#D80003;
+	padding-right:10px;
+}
+
+/*無料版*/
+.form table {
+}
+
+.form table tr:hover {
+	background:#fff9f4;
+}
+.form th {
+	font-size:15px;
+	font-weight:bold;
+	width: 150px;
+	vertical-align:top;
+	padding: 32px 0;
+}
+.form td {
+	padding: 16px 0;
+	font-size:15px;
+	position: relative;
+}
+
+.form td .flex{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.form td.sex{
+	display:flex;
+	padding:  32px 0;
+}
+
+.form td.sex label{
+	margin: auto 0;
+	/* margin-left:  0; */
+	width: 30%;
+}
+
+/*会社情報入力*/
+.form td .comname select{
+	margin-left:auto;
+	margin-right:auto;
+	width: 25%;
+}
+.form td .comname input[type="text"] {
+	margin-left:auto;
+	margin-right:auto;
+	width: 45%;
+}
+
+/*住所入力欄*/
+.form td.address input[type="text"],
+.form td.address select{
+	margin-bottom: 5px;
+}
+
+/*住所自動入力*/
+.form td .numBtn{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	background: #d4d4d4;
+	width: 160px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.form td .numBtn:hover{
+	background: #b7b7b7;
+}
+
+/*都道府県選択・決算月選択*/
+.form select.prefectures,
+.form select.financial {
+	width: 40%;
+}
+
+/*業態選択*/
+.form td.comType{
+	padding-top: 30px
+}
+
+.form td.comType ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form td.comType ul li{
+	width: 50%;
+	padding:4px 8px;
+	border-radius:4px;
+}
+.form td.comType ul li label{
+	display:inline-flex;
+	margin:0 auto;
+	padding:0;
+	width:90%;
+}
+.form td.comType ul li:hover{
+	background:#f7e9df;
+}
+
+.form .err .comType{
+	background: #f7e3d5;
+}
+
+
+/*定休日選択*/
+.form td.holiday ul{
+	display: flex;
+	flex-wrap:wrap;
+	padding-bottom: 10px;
+}
+.form td.holiday ul li{
+	width: 80px;
+}
+/*営業時間*/
+.form td .otherstime{
+	margin-top:16px
+}
+
+/*注釈*/
+.form td span{
+	display:block;
+	color:#666;
+	font-size:12px;
+}
+
+/*ログイン情報*/
+.form .inr.login {
+	max-width: 800px;
+	background: #f1f1f1;
+	padding: 56px 0;
+	margin-top: 40px;
+}
+
+.form .inr.login > div{
+	max-width: 560px;
+	margin: auto;
+}
+
+.form .inr.login > div input[type="text"]{
+	margin-bottom: 5px;
+}
+
+
+/*プレミアム版・お問合せ共通*/
+.main_cont.form{
+	margin-top:0;
+	margin-bottom:0;
+}
+.main_cont.form .contact > div.input_area{
+	margin-top: 8px;
+}
+.main_cont.form .contact .inquiry-details li{
+	font-size:15px;
+	width:100%;
+	display:block;
+	margin:2px 0;
+}
+
+.main_cont.form .contact .inquiry-details li label{
+	width:100%;
+	padding:8px;
+	display:block;
+}
+
+.main_cont.form .contact .title_reply-method{
+	font-size:16px;
+	font-weight: bold;
+	padding: 24px 0 12px 0;
+}
+
+.main_cont.form .contact .reply-method{
+	display:flex;
+}
+
+.main_cont.form .contact .reply-method li{
+	margin-right:12px
+}
+
+.main_cont.form .contact .reply-method li label{
+	width:100%;
+	padding:8px;
+	display:block;
+}
+
+.main_cont.form .contact .inquiry-details li label:hover,
+.main_cont.form .contact .reply-method li label:hover{
+	background:#fff1da;
+}
+
+.main_cont.form .contact .inquiry-details input[type="checkbox"],
+.main_cont.form .contact .reply-method  input[type="radio"]{
+	margin-right:4px;
+}
+
+/*個人情報保護方針の説明*/
+.main_cont.form .privacy p{
+	text-align:left;
+}
+
+/*エラー表示*/
+.form .err_tx {
+	color: #d00808;
+	font-weight: bold;
+}
+
+/*入力項目*/
+.form input[type="text"],
+.form input[type="tel"] {
+	font-size: 15px;
+	width: 100%;
+	border: solid 1px #ccbfaa;
+	background: #FFF;
+	border-radius: 8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 8px;
+	padding: 12px 16px;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+}
+.form textarea {
+	font-size: 15px;
+	width: 100%;
+	height: 200px;
+	max-height: 200px;
+	/* min-width: 420px; */
+	min-height: 200px;
+	border: solid 1px #ccbfaa;
+	background: #FFF;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	padding: 24px 16px;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+}
+.form input[type="text"]:focus, textarea:focus {
+	background: #f1f1f1;
+}
+
+/*プルダウン*/
+.form select {
+	font-size: 15px;
+	height: 52px;
+	width: 100%;
+	border: solid 1px #ccbfaa;
+	background: #FFF;
+	border-radius: 8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 8px;
+	padding: 16px;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+/*	margin-bottom: 5px;*/
+	background: #fff url(../img/base/icon_selector.png)no-repeat right 14px center;
+}
+.form .date-select {
+	padding: 5px 0;
+}
+.form .date-select select {
+	width: 60px !important;
+}
+
+/*ボタン*/
+.form .bt,
+.form .bt-back {
+	min-width:140px;
+	margin: 0 auto;
+	cursor:pointer;
+	font-size:15px;
+	text-align:center;
+	color:#FFF;
+	padding:12px 40px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border:none;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+}
+.form .bt {
+	background: #ef9816;
+}
+.form .bt-back {
+	background: #bbbbbb;
+}
+.form .area_bt.next{
+	padding-top: 0;
+}
+
+.form .bt-fix {
+	margin-left:20px;
+	cursor:pointer;
+	font-size:12px;
+	text-align:center;
+	background: #a9a9a9;
+	color:#FFF;
+	padding:4px 20px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border:none;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+}
+
+
+
+.form .area_privacy_check {
+	padding: 30px 0;
+}
+.form .area_privacy_check.err {
+	padding-left: 8px;
+}
+.form .area_privacy_check p {
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 32px !important;
+}
+.form .area_privacy_check p a {
+	text-decoration: underline;
+	/* color: #f85576; */
+}
+.form .area_privacy {
+	height: 150px;
+	overflow-y: scroll;
+	padding: 20px;
+	border: solid 1px #CCC;
+}
+.form .area_privacy h2 {
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+}
+.form .area_privacy h3 {
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+}
+.form .area_privacy p {
+	text-align: left;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.form .area_agree {
+	font-size: 15px;
+	text-align: center;
+	margin: 15px 0 40px 0;
+}
+.form .area_bt {
+	padding-top: 50px;
+	text-align: center;
+	position: relative;
+	display: flex;
+	max-width: 300px;
+	margin: auto;
+}
+.form .area_agree input {
+	margin-right: 10px;
+	margin-top: -3px;
+}
+.form .btn {
+	/* margin-left:20px; */
+	cursor: pointer;
+	font-size: 15px;
+	text-align: center;
+	padding: 0 56px;
+	height: 60px;
+	border: none;
+	color: #FFFFFF;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	border-radius: 30px;
+	background: #ef9816;
+}
+.form .btn:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+.form .btn:active {
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+.form .btn.back {
+	background: #f1f1f1 url(../img/base/btn_icon2.png) no-repeat right 30px center;
+	color: #000;
+}
+.required {
+	color: #ff0000;
+}
+
+/*エラー表示*/
+.err input[type="text"],
+.err select,
+.err textarea,
+.err input[type="tel"] {
+	/* background-color: #dadada; */
+	border: solid 1px #ff0000;
+	border-radius: 6px;
+}
+.err .inquiry-details li label,
+.err .reply-method li label{
+	background:#ffdada;
+}
+.form .err_tx {
+	color: #e80e0e;
+	font-weight: bold;
+	padding: 8px 0;
+}
+
+/*確認画面*/
+.form .section{
+	position:relative;
+	padding:20px 0;
+}
+.form .section h3{
+	border-bottom: 1px solid #da8832;
+	color: #da8832;
+	font-size:20px;
+	padding-bottom:3px;
+}
+.form .section .fixBtn{
+	position:absolute;
+	top:20px;
+	right:0;
+}
+.form table.conf{
+	border-bottom:dotted 1px #CCC;
+	margin-top:-1px
+}
+.form table.conf th,
+.form table.conf td {
+	border-top:dotted 1px #CCC;
+	padding:16px 0;
+}
+
+/*完了画面*/
+.thx {
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+}
+.inr.thx {
+	max-width:  700px;
+}
+.form .thx .img{
+	max-width:129px;
+	margin: 120px auto 0;
+}
+
+.form .thx h2{
+	font-size: 34px;
+	padding: 32px 0 16px;
+}
+
+
+
+/*placeholder*/
+:placeholder-shown {
+color: #484a4e;
+}
+::-webkit-input-placeholder {
+color: #8e8e8e;
+}
+:-moz-placeholder {
+color: #8e8e8e;
+opacity: 1;
+}
+::-moz-placeholder {
+color: #8e8e8e;
+opacity: 1;
+}
+:-ms-input-placeholder {
+color: #8e8e8e;
+}
+
+@media(min-width:1px)and (max-width:1040px) {
+.flow{
+	background-size:80%
+}
+.flow li{
+	font-size:12px
+}
+}
+
+@media(min-width:1px)and (max-width:750px) {
+#container {
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+
+.form .inr {
+	padding: 0 8%;
+}
+
+/*電話問合せ*/
+.form > .tel{
+	width:90%;
+	margin: 0 auto 24px;
+	padding-top: inherit;
+}
+
+.form .tel .block{
+	max-width: inherit !important;
+	width:100%;
+	margin: auto auto 8px!important;
+	padding: 16px 16px 8px;
+}
+.form .tel .block h3{
+	padding-bottom: 0;
+	font-size:13px;
+	margin: auto;
+	width:100%;
+}
+
+.form .tel .block .tel {
+	font-size: 32px;
+	background: url(../img/contact/icon_tel.png)no-repeat top 5px left;
+	background-size:14px;
+	line-height: .9em;
+	padding-left: 20px;
+	margin: auto;
+}
+.form .tel .block.support .tel {
+	background: url(../img/contact/icon_tel2.png)no-repeat top 5px left;
+	background-size:14px;
+}
+.form .tel .block .tel span {
+	font-size: 11px;
+}
+
+/*規約*/
+.topImage{
+	margin-bottom:32px;
+	overflow:hidden
+}
+
+.topImage img{
+	width:120%;
+	margin-left: -10%;
+}
+
+.form  p.left {
+	font-size:14px;
+	text-align:left;
+	margin-bottom:0;
+}
+
+.form  p.left > .sp_none{
+	display:none;
+}
+
+
+.form.top ul.codeFloat{
+	width:  100%;
+}
+
+.codeFloat{
+	padding-top:40px;
+}
+
+/*フォームのタイトルなど*/
+.form h2.head {
+	font-size:22px;
+	margin-bottom:16px;
+}
+.form h2.head.mail {
+	margin-bottom:0;
+}
+.main_cont.form h2.head {
+	margin-bottom:16px
+}
+/*個人情報保護方針の説明*/
+.main_cont.form .privacy p{
+	font-size:14px;
+}
+.main_cont.form .privacy p br{
+	display:none;
+}
+
+/*無料版*/
+.form th,
+.form td {
+	width:100%;
+	display:block;
+}
+.form td {
+	padding-top: 4px;
+	padding-bottom:0;
+}
+.form td.sex{
+	padding:  16px 0 0;
+}
+.form th{
+	padding-top: 20px;
+	padding-bottom:0;
+}
+.form th br{
+	display:none;
+}
+.form table.conf th{
+	padding-bottom:0;
+}
+.form table.conf td{
+	padding-top:0;
+	border-top:none;
+}
+/*会社情報入力*/
+.form td .comname input[type="text"],
+.form td .comname select{
+	margin:0 0 5px;
+	width: 100%;
+}
+/*住所自動入力*/
+.form td .numBtn{
+	position: inherit;
+	top: 10px;
+	width: 160px;
+}
+/*都道府県選択・決算月選択*/
+.form select.prefectures,
+.form select.financial {
+	width: 60%;
+}
+/*ログイン情報*/
+.form .inr.login {
+	padding: 32px 8%;
+}
+.form .inr.login p{
+	text-align:left;
+}
+/*業態選択*/
+.form td.comType{
+	padding-top: 0;
+}
+.form td.comType ul li{
+	width: 100%;
+}
+/*定休日選択*/
+.form td.holiday ul li{
+	width: 30%;
+}
+
+
+/*プレミアム版・お問合せ共通*/
+.main_cont.form .contact > div.input_area{
+	margin-top: 4px;
+}
+
+/*完了画面*/
+.inr.thx {
+	padding: 0 5%;
+}
+.form .thx .img{
+	max-width:80px;
+	margin: 40px auto 0;
+}
+
+.form .thx h2{
+	font-size: 20px;
+}
+
+.form .thx p{
+	font-size: 12px;
+}
+/*採用フォーム*/
+.form td input[type="file"] {
+	font-size:13px;
+}
+
+}
+
+@media(min-width:1px)and (max-width:480px) {
+.flow{
+	margin-bottom:8px;
+}
+.flow li,.flow li.on{
+	background-size: 15px;
+	background-position:center;
+}
+.flow li span{
+	display:none;
+}
+.form p {
+	margin-bottom:0;
+}
+
+}
+

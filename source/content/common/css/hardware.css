@@ -1,0 +1,258 @@
+@charset utf-8;
+@import url(service.css);
+.inner .btn a{
+	border:solid 1px #898989;
+	width:240px;
+	height: 48px;
+	text-align:center;
+	line-height: 48px;
+	margin:auto;
+	border-radius:25%/100%;
+	display:block;
+	cursor: pointer;
+	color: #606060;
+}
+.inner .btn a:hover{
+	background: #ec8700;
+	color: #fff;
+	opacity: 1;
+	border: solid 1px #ec8700;
+}
+/*Raindrop*/
+#Raindrop{
+	margin-top: 48px;
+}
+#Raindrop .mainImage {
+	background: #f7f7f7;
+	position: relative;
+	overflow: hidden;
+}
+#Raindrop .mainImage .raindrop-image {
+	max-width: 800px;
+	margin: 80px 0 40px -160px;
+	transition: .8s;
+	width: 95%;
+}
+#Raindrop .mainImage .inner {
+	width: 100%;
+	max-width: 1080px;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#Raindrop .mainImage .inner .maincopy {
+	position: absolute;
+	bottom: 40%;
+	left: 50%;
+	margin: auto;
+	width: 55%;
+	max-width: 480px;
+	transition: .8s;
+}
+#Raindrop .mainImage .inner .maincopy .sp {
+	display: inline-block;
+}
+#Raindrop .mainImage .inner .maincopy h1 {
+	max-width: 320px;
+	width: 90%;
+	margin: auto;
+}
+#Raindrop .mainImage .inner .maincopy ul {
+	padding-top: 8%;
+}
+#Raindrop .mainImage .inner .maincopy li {
+	background: url(../img/raindrop/icon_check.png) no-repeat left center;
+	padding-left: 32px;
+	margin-bottom: 8px;
+}
+#Raindrop p {
+	max-width: 700px;
+	text-align: center;
+}
+/*Rectangle*/
+#Rectangle .mainImage {
+	background: #1c1c1c;
+	position: relative;
+	overflow: hidden;
+}
+#Rectangle .mainImage .rectangle-image {
+	max-width: 800px;
+	padding: 4% 0;
+}
+#Rectangle .mainImage .inner {
+	width: 100%;
+	max-width: 1080px;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#Rectangle .mainImage .inner .maincopy {
+	position: absolute;
+	bottom: 40%;
+	left: 64%;
+	margin: auto;
+	width: 32%;
+	max-width: 390px;
+}
+#Rectangle .mainImage .inner .maincopy ul {
+	color: #fff;
+	padding-top: 8%;
+}
+#Rectangle .mainImage .inner .maincopy li {
+	background: url(../img/rectangle/icon_check.png) no-repeat left center;
+	padding-left: 32px;
+	margin-bottom: 8px;
+}
+#Rectangle p {
+	text-align: center;
+}
+
+@media(min-width: 1481px) {
+#Raindrop .mainImage .inner .maincopy {
+	left: 55%;
+	width: 45%;
+}
+#Raindrop .mainImage .inner .maincopy h1 {
+	max-width: 300px;
+}
+#Raindrop .mainImage .raindrop-image {
+	margin-left: 16%;
+	width: 42%;
+	max-width: 700px;
+}
+#Rectangle .mainImage {
+	height: 790px;
+}
+#Rectangle .mainImage .rectangle-image {
+	max-width: initial;
+	max-height: 700px;
+	width: auto;
+	left: -560px;
+	right: 0;
+	margin: auto;
+	position: absolute;
+}
+}
+
+@media(min-width:1200px) {
+}
+
+@media(min-width:1px)and (max-width:1080px) {
+#Raindrop .mainImage .raindrop-image {
+	/* width: 72%; */
+	margin-left: -38%;
+	/* margin-top: 10%; */
+	/* margin-bottom: 10%; */
+}
+#Raindrop .mainImage .inner .maincopy {
+	left: inherit;
+	right: 0;
+	margin-right: 0;
+	width: 55%;
+}
+#Raindrop .mainImage .inner .maincopy ul {
+	padding-top: 3%;
+	margin: auto;
+	display: table;
+}
+#Rectangle .mainImage .inner .maincopy {
+	bottom: 24%;
+}
+}
+
+@media(min-width:1px)and (max-width:750px) {
+section p {
+	text-align: left !important;
+}
+#Raindrop .img {
+	min-height: inherit !important;
+}
+#Raindrop .mainImage .inner {
+	padding: 40px;
+}
+#Raindrop .mainImage .inner .bp-img {
+	margin: auto;
+}
+#Raindrop .mainImage .inner .maincopy h1 {
+	width: 70%;
+}
+#Raindrop .mainImage .inner .maincopy .sp {
+	display: none;
+}
+#Raindrop .mainImage .inner .maincopy li {
+	background: url(../img/raindrop/icon_check.png) no-repeat left center;
+	background-size: 10px;
+	padding-left: 16px;
+	margin-bottom: 0px;
+}
+#Raindrop .mainImage .inner .maincopy h2 {
+	font-size: 12px;
+}
+#Raindrop .mainImage .inner .maincopy .sub {
+	font-size: 10px;
+}
+#Rectangle .mainImage .rectangle-image {
+	max-width: 560px;
+	width: 110%;
+	/* margin-left: -20px; */
+	padding: 0;
+	position:  absolute;
+	top: 0;
+	bottom:  0;
+	margin: auto 0 auto -20%;
+}
+#Rectangle .mainImage .inner .maincopy {
+	top: 60%;
+	bottom: inherit;
+	left: inherit;
+	right: 8%;
+	margin-right: 0;
+	width: 50%;
+}
+#Rectangle .mainImage .inner .maincopy {
+	top: inherit;
+	bottom: -50%;
+	left: inherit;
+	right: 0%;
+	margin-right: 0;
+	width: 56%;
+	height: 0;
+}
+#Rectangle .mainImage .inner .maincopy h1 {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+}
+#Rectangle .mainImage .inner .maincopy ul {
+	color: #fff;
+	padding-top: 3%;
+	margin: auto;
+}
+#Rectangle .mainImage .inner .maincopy li {
+	background: url(../img/rectangle/icon_check.png) no-repeat left center;
+	background-size: 10px;
+	padding-left: 16px;
+	margin-bottom: 0px;
+}
+#Rectangle .mainImage .inner .maincopy h2 {
+	font-size: 12px;
+}
+}
+
+@media(min-width:1px)and (max-width:480px) {
+#Raindrop .mainImage .raindrop-image {
+	width: 90%;
+	margin: 8% -40%;
+}
+#Raindrop .mainImage .inner .maincopy {
+	left: 40%;
+	width: 62%;
+}
+#Raindrop .mainImage .inner .maincopy h1 {
+	width: 60%;
+}
+}

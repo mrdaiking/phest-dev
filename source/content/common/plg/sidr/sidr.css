@@ -1,0 +1,135 @@
+#close, #mobile-header, .sidr{
+	display: none
+}
+.list.pc_none{
+	display: none
+}
+header nav li.close {
+	display: none
+}
+.sidr ul, .sidr ul li {
+	display: block;
+	margin: 0
+}
+.sidr ul li ul, .sidr ul li ul li:last-child {
+	border-bottom: none
+}
+.sidr {
+	position: absolute;
+	position: fixed;
+	top: 0;
+	height: 100%;
+	z-index: 999999;
+	width: 300px;
+	overflow-x: none;
+	overflow-y: auto;
+	font-size: 22px;
+	font-weight: 500;
+	background: #fff;
+	color: #000;
+}
+.sidr img {
+	width: auto!important
+}
+.sidr .sidr-inner {
+	padding: 24px 0;
+}
+.sidr.right {
+	left: auto;
+	right: -260px;
+	background: rgba(43, 41, 40, 1);
+}
+.sidr.left {
+	left: -260px;
+	right: auto
+}
+.sidr ul {
+	clear: both;
+}
+.sidr ul li {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 32px;
+	text-align: left;
+}
+.sidr ul li.sidr-class-list > span {
+	color: #a9a9a9;
+	width:100%;
+	display:block;
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+.sidr ul li a {
+	font-weight: 300;
+	display: block;
+	width: 100%;
+	color: #abacaf;
+	padding: 0 16px;
+}
+.sidr ul li a:hover {
+	color: #e77d29;
+}
+.sidr ul li .sidr-class-on a{
+	color: #e77d29 !important;
+	font-weight:bold;
+}
+.sidr ul li.sidr-class-close {
+	margin-bottom: 12px;
+	/* margin-right: 12px; */
+	text-align: right;
+	padding: 0;
+	line-height: 0;
+	font-size: 40px;
+	font-weight: 100;
+	color: #eee;
+	display: block;
+	cursor: pointer;
+}
+.sidr ul li.sidr-class-close a {
+	color: #cacaca;
+}
+.sidr ul li.sidr-class-close a:hover {
+	background:none;
+}
+
+.sidr ul li.sidr-class-list:nth-child(4) {
+	padding-top:0;
+	margin-top:0
+}
+
+#trigger a {
+	float: right;
+	;
+	width: 30px;
+	padding: 15px
+}
+@media screen and (max-width:750px) {
+#mobile-header {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#mobile-header img{
+	width:48px;
+	height:48px;
+}
+.sidr-class-subMenu{
+	padding-left:16px;
+}
+.sidr li.sidr-class-sp_none{
+	display: none
+}
+.sidr {
+	width: 43%;
+}
+.sidr .sidr-inner {
+	padding: 16px 0;
+}
+.sidr ul li {
+	line-height: 36px;
+}
+.sidr li.sidr-class-privacy {
+	letter-spacing: 0em;
+}
+}

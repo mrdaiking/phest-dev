@@ -1,0 +1,59 @@
+@charset utf-8;
+
+#container{
+	max-width: 100%;
+	margin-bottom:0;
+}
+section > .inr{
+	max-width: 1040px;
+	margin: auto;
+	padding: 80px 0;
+}
+section > .inr.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+section .inr h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+section .inr figure{
+    margin: 0;
+}
+
+section .inr .detail{
+    width: 42%;
+    margin: auto;
+}
+
+@media (min-width:1px)and (max-width:1040px) {
+section > .inr{
+    padding: 6%;
+}
+section .inr h2{
+	font-size: 2.5vw;
+}
+}
+
+@media (min-width:1px)and (max-width:750px) {
+section .inr h2{
+    font-size: 22px;
+    text-align: center;
+}
+section .inr p{
+    font-size: 14px;
+}
+section > .inr{
+    padding: 12% 8%;
+}
+section > .inr.flex{
+    flex-wrap:wrap;
+}
+section > .inr .detail{
+	width:100%
+}
+}

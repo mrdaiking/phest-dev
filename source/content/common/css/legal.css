@@ -1,0 +1,99 @@
+@charset utf-8;
+#container p.text {
+	padding: 0 0 40px 0;
+}
+section {
+	padding-bottom: 30px;
+}
+#headImage {
+	height: 210px;
+	display: table-cell;
+	vertical-align: middle;
+}
+#headImage h2.title {
+	font-size: 32px;
+	font-weight: 400;
+	padding-top: 56px;
+	text-align: left;
+}
+#headImage h2.title2nd {
+	font-size: 32px;
+	font-weight: 400;
+	padding-top: 56px;
+	text-align: left;
+	padding-bottom: 0px;
+}
+#headImage h2 .plan {
+	display: block;
+	font-size: 14px;
+	background: #c2c2c2;
+	padding: 5px;
+	color: #fff;
+	width: 120px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.legal dl {
+	margin: 0;
+	padding: 0;
+	border-width: 0 1px 1px;
+	border-bottom: #e8e8e8 solid 1px;
+	width: 80%;
+}
+.legal dt {
+	margin: 0;
+	padding: 2em;
+	border-top: #e8e8e8 solid 1px;
+	font-size: 100%;
+	line-height: 1.6em;
+	font-weight: bold;
+}
+.legal dt:first-child {
+	border: none;
+}
+.legal dd {
+	margin: -5.6em 0 0 15em;
+	padding: 2em;
+	line-height: 1.6em;
+}
+.legal ul {
+	padding: 0 0 0 10px;
+}
+.legal ul li {
+	list-style: outside;
+}
+
+@media (min-width:1px)and (max-width:1040px) {
+#headImage h2.title, #headImage h2.title2nd {
+	font-size: 22px;
+	padding: 40px 0 16px 40px;
+}
+#headImage {
+	height: auto;
+}
+.legal {
+	padding: 0 5%;
+}
+.legal dl {
+	width: 100%;
+}
+}
+
+@media (min-width:1px)and (max-width:750px) {
+#headImage h2.title {
+	padding: 20px 20px 15px;
+}
+.legal dl {
+	font-size: 0.9em;
+	width: 100%;
+}
+.legal dt {
+	width: 100%;
+	padding: 1em 2em 2em 1em;
+}
+.legal dd {
+	width: 100%;
+	padding: 4em 0 1em 1em;
+	margin: -5.6em 0 0 0;
+}
+}

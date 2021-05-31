@@ -1,0 +1,799 @@
+@charset utf-8;
+#container{
+	max-width: 100%;
+	margin-bottom: 0;
+}
+
+/*top*/
+#kzt-migration .top,
+#kzt-migration .change{
+	max-width: 1080px;
+	margin: auto;
+}
+#kzt-migration .top{
+	padding-top: 80px;
+}
+#kzt-migration .top h1{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 16px;
+}
+#kzt-migration .top p{
+	margin:auto;
+	display:table;
+}
+#kzt-migration .top ul{
+	display:table;
+	margin:auto;
+	padding:40px;
+	color: #EB5721;
+	font-size: 15px;
+}
+#kzt-migration .top li:before{
+	content:"※"
+}
+#kzt-migration .top h1.setting{
+	line-height:1.2em;
+	margin-bottom: 5%;
+}
+#kzt-migration .top h1.setting span{
+	padding:0px;
+	font-weight:normal;
+	color: inherit;
+	font-size: 14px;
+	display:block;
+}
+
+/*システム変更点-共通-*/
+#kzt-migration .change{
+	padding: 40px;
+	margin-bottom: 8%;
+}
+#kzt-migration .change.point{
+	background: #F8F8F8;
+}
+#kzt-migration .point dl{
+	margin: 0 auto 56px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+#kzt-migration .point dt{
+	background: #EB5721;
+	color:#FFFFFF;
+	font-weight: bold;
+	padding:12px 24px;
+	margin-right: 24px;
+}
+#kzt-migration .point .figure{
+	display: flex;
+	text-align:center;
+	width:100%;
+	position: relative;
+}
+#kzt-migration .point .figure h3{
+	text-align:center;
+	font-weight:bold;
+	font-size:22px;
+	line-height: 1.2em;
+	margin-bottom: 24px;
+}
+#kzt-migration .point .figure h3 > span{
+	display:block;
+	font-size:16px;
+	font-weight:normal;
+}
+#kzt-migration .point .figure figure{
+	margin:0;
+}
+#kzt-migration .point .figure > div{
+	margin:auto;
+}
+#kzt-migration .point .figure .before{
+	width: 28%;
+}
+#kzt-migration .point .figure .after{
+	width: 60%;
+	display: flex;
+	flex-wrap:wrap;
+	border-left: #cccccc solid 1px;
+	padding-left: 5%;
+}
+#kzt-migration .point .figure .after:before{
+	content:"";
+	width:32px;
+	height:32px;
+	background:url(../img/kzt/icon_arrow.png);
+	background-size:32px;
+	position:absolute;
+	top:50%;
+	margin-top:-16px;
+	margin-left:16px;
+	left:34%;
+}
+#kzt-migration .point .figure .after h3{
+	width:100%;
+	margin-left:-3%;
+}
+#kzt-migration .point .figure .after figure{
+	width:50%;
+}
+#kzt-migration .point .figure .after figure:nth-child(3){
+	margin-left:-5%;
+}
+
+/*手順B step1*/
+#kzt-migration .menu-category{
+	padding: 0;
+	margin-bottom: 0;
+	max-width: 100%;
+	background: #f8f8f8;
+}
+#kzt-migration .menu-category .inr{
+	padding: 5% 0;
+	max-width: 960px;
+	margin:auto;
+}
+#kzt-migration .menu-category dl{
+	margin: 0 auto 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 960px;
+	border-radius: 4px;
+}
+#kzt-migration .menu-category dt{
+	font-weight: bold;
+	font-size:22px;
+	width: 100%;
+	margin: auto auto 8px;
+	text-align: center;
+}
+#kzt-migration .menu-category dt:before{
+	font-weight: bold;
+	content: "ステップ1";
+	background:#000000;
+	color:#ffffff;
+	font-size:10px;
+	padding:6px;
+	margin-right:8px;
+}
+#kzt-migration .menu-category .figure h3{
+	font-weight: bold;
+	font-size:18px;
+	line-height: 1.4em;
+	margin-bottom: 24px;
+}
+#kzt-migration .menu-category .figure h3 > span{
+	font-size:14px;
+	font-weight:normal;
+	display:block;
+}
+#kzt-migration .menu-category .figure{
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+#kzt-migration .menu-category figure{
+	margin:0;
+	padding-bottom: 16px;
+}
+#kzt-migration .menu-category .figure > div{
+	background:#FFFFFF;
+	border: solid 1px #EDEDED;
+	border-radius: 4px;
+	padding: 2.5%;
+	margin: 0;
+	text-align:center;
+}
+#kzt-migration .menu-category .figure > div img{
+	max-width: 268px;
+}
+#kzt-migration .menu-category .figure .before{
+	width: 32.91%;
+	margin-left:0;
+	position:relative;
+}
+#kzt-migration .menu-category .figure .before:after{
+	content:"";
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	background: url(../img/kzt/icon_arrow.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	bottom: 97px;
+	right: 0;
+	margin-right: -2.1em;
+}
+
+#kzt-migration .menu-category .figure .after{
+	width: 65.41%;
+	margin-right:0;
+	margin-left: auto;
+	display:flex;
+	flex-wrap:wrap;
+	text-align:center;
+}
+
+#kzt-migration .menu-category .figure .after figure{
+	width:50%;
+	margin:0
+}
+
+#kzt-migration .menu-category .figure .after h3{
+	width:100%;
+}
+
+/*step2*/
+.operation-guide.tax-setting{
+	background: #FFFFFF;
+}
+
+
+
+/*マニュアルサイトリンク*/
+#kzt-migration h2.manual{
+	text-align:center;
+	font-size:18px;
+	padding:80px 0 96px;
+}
+#kzt-migration h2.manual a{
+	color: #606060;
+	text-decoration:underline;
+}
+
+/*診断チャート*/
+.operation-guide .inr .chart{
+	max-width:902px;
+	margin: 80px auto 0;
+	position: relative;
+}
+.operation-guide .inr .chart figure{
+	width:70.9543%;
+	margin: 0 2%;
+}
+.operation-guide .inr .chart ul{
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 70.9543%;
+	background: url(../img/kzt/migration_chart.png) no-repeat left top;
+	background-size: 70.9543%;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	.operation-guide .inr .chart ul{
+		background: url(../img/kzt/migration_chart@2x.png) no-repeat left top;
+		background-size: 70.9543%;
+	}
+}
+.operation-guide .inr .chart ul li{
+	width:100%;
+	margin-bottom: 18%;
+}
+.operation-guide .inr .chart ul li a{
+	font-size: 16px;
+	font-weight:bold;
+	background:#2d3f63;
+	color:#FFFFFF;
+	display:block;
+	text-align:center;
+	border-radius:8px;
+	padding: 8%;
+	position: relative;
+}
+.operation-guide .inr .chart ul li a:before{
+	content:"";
+	display:inline-block;
+	width: 1.3em;
+	height: 1.3em;
+	background:url(../img/kzt/icon_arrow2.png) no-repeat center;
+	background-size: cover;
+	margin-bottom: -4px;
+	margin-right: 12px;
+}
+.operation-guide .inr .chart ul li.nolink{
+	font-size: 15px;
+	font-weight:bold;
+	background: #e44450;
+	color:#FFFFFF;
+	display:block;
+	text-align:center;
+	border-radius:8px;
+	padding: 8% 4%;
+	line-height:1.2em;
+}
+.operation-guide .inr .chart ul li.nolink span{
+	display:block;
+	font-size: 10px;
+	font-weight:normal;
+}
+.operation-guide .inr .chart ul li a:hover{
+	background:#1242a0;
+}
+
+/*既存メニューの対応方法*/
+.operation-guide{
+	background: #f8f8f8;
+}
+.operation-guide .inr{
+	max-width: 960px;
+	margin: auto;
+	padding: 80px 0;
+}
+.operation-guide .inr h1{
+	text-align:center;
+	color:#2D3F63;
+	font-size:30px;
+	font-weight:bold;
+	padding-bottom: 16px;
+}
+.operation-guide .inr > h2{
+	text-align:center;
+	font-size: 24px;
+}
+.operation-guide .inr > h2.step2{
+	margin-bottom:40px;
+}
+.operation-guide .inr > h2.step2:before{
+	font-weight: bold;
+	content: "ステップ2";
+	background:#000000;
+	color:#ffffff;
+	font-size:10px;
+	padding:6px;
+	margin-right:8px;
+}
+.operation-guide .inr p{
+	margin:auto;
+	display:table;
+	font-size: 16px;
+}
+.operation-guide .inr ul.tab{
+	display: flex;
+	justify-content:center;
+	margin: 16px auto 48px;
+}
+.operation-guide .inr ul.tab li{
+	margin: auto 8px;
+	min-width: 220px;
+	text-align: center;
+}
+.operation-guide .inr ul.tab li a{
+	padding: 14px 24px;
+	border:solid 1px #D8DDE3;
+	background:#FFFFFF;
+	border-radius: 25%/100%;
+	width: 100%;
+	min-width: 220px;
+	cursor: pointer;
+	display: block;
+}
+.operation-guide .inr ul.tab li a.on{
+	border: solid 1px #151006;
+	background: #151006;
+	color:#ffffff;
+}
+.operation-guide .inr ul.tab li a:hover {
+	border:solid 1px #000000;
+	background:#000000;
+	color:#ffffff;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+.operation-guide .inr .detail h2{
+	text-align:center;
+	font-size: 18px;
+	font-weight:bold;
+	padding-bottom:8px;
+}
+.operation-guide .inr .detail figure{
+	margin:0 0 40px;
+}
+.operation-guide .inr .detail figcaption{
+	text-align:center;
+	padding-bottom: 24px;
+}
+.operation-guide #mng{
+	display:none;
+}
+
+/*補足情報*/
+.operation-guide .inr .notice{
+	background:#FFFFFF;
+	padding:16px;
+	border-radius:8px;
+}
+.operation-guide .inr .notice dl{
+	display:flex;
+	align-items:center;
+	flex-wrap: nowrap;
+}
+.operation-guide .inr .notice dt{
+	background:#EB5721;
+	color:#FFFFFF;
+	margin:auto 24px auto 0 ;
+	font-size:16px;
+	padding:8px;
+	min-width:144px;
+	text-align:center;
+}
+
+/*ボタン*/
+.operation-guide .inr .btn.back{
+	margin:56px auto;
+	width: 220px;
+	text-align: center;
+}
+.operation-guide .inr .btn.back a{
+	font-size:15px;
+	color:inherit;
+	padding: 14px 24px;
+	border:solid 1px #D8DDE3;
+	background:#FFFFFF;
+	border-radius: 25%/100%;
+	width: 100%;
+	min-width: 220px;
+	cursor: pointer;
+	display: block;
+}
+.operation-guide .inr .btn.back a:hover{
+	border:solid 1px #000000;
+	background:#000000;
+	color:#ffffff;
+	opacity:1;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+
+@media(min-width:1px)and (max-width:1080px) {
+	.operation-guide .inr{
+		padding: 12% 8%;
+	}
+}
+
+@media(min-width:1px)and (max-width:750px) {
+/*top*/
+#kzt-migration .top{
+	padding: 8%;
+}
+#kzt-migration .top h1{
+	font-size: 5vw;
+}
+#kzt-migration .top h1.setting{
+	margin-bottom: 0%;
+}
+#kzt-migration .top h1.setting span{
+	font-size: 12px;
+}
+#kzt-migration .top p{
+	font-size:14px
+}
+#kzt-migration .top p > br{
+	display:none;
+}
+#kzt-migration .top ul{
+	padding:4% 0;
+	font-size: 12px;
+}
+#kzt-migration .top span{
+	padding: 8% 0 0;
+	font-size:14px;
+}
+
+#kzt-migration .point dl{
+	margin-bottom: 6%;
+}
+#kzt-migration .point dt{
+	text-align:center;
+	padding: 6px 24px;
+	margin: 0 auto 5%;
+}
+#kzt-migration .point dd{
+	font-size:12px;
+}
+#kzt-migration .point dd br{
+	display:none;
+}
+#kzt-migration .point .figure{
+	display: inherit;
+	text-align:center;
+	width:100%;
+}
+#kzt-migration .point .figure .before,
+#kzt-migration .point .figure .after{
+	width: 100%;
+	border-left: none;
+	padding-left: 0;
+}
+#kzt-migration .point .figure .before{
+	width: 100%;
+	border-left: none;
+	padding-left: 0;
+	padding-bottom: 12%;
+	margin-bottom: 10% !important;
+	border-bottom: #D8D8D8 solid 1px;
+}
+#kzt-migration .point .figure .after:before{
+	background: url(../img/kzt/icon_arrow.png) no-repeat center top;
+	background-size: 100%;
+	top: 57.3%;
+	margin-top:-16px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	transform: rotate(90deg);
+}
+#kzt-migration .point .figure .before figure{
+	width: 80%;
+	margin:auto;
+}
+#kzt-migration .point .figure .after figure{
+	width:55%;
+}
+#kzt-migration .point .figure .after h3{
+	margin-left:0;
+}
+#kzt-migration .point .figure .after figure:nth-child(3){
+	margin-left:-10%;
+}
+
+
+/*手順B step1*/
+#kzt-migration .menu-category{
+	padding: 8%;
+	margin-bottom: 0;
+	max-width: 100%;
+	background: #f8f8f8;
+}
+#kzt-migration .menu-category .inr{padding-bottom: 0;}
+#kzt-migration .menu-category dl{
+	margin: 0 auto 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 960px;
+	border-radius: 4px;
+}
+#kzt-migration .menu-category dt{
+	font-weight: bold;
+	font-size:22px;
+	width: 100%;
+	margin: auto auto 8px;
+	text-align: center;
+}
+#kzt-migration .menu-category dt:before{
+	font-weight: bold;
+	content: "ステップ1";
+	background:#000000;
+	color:#ffffff;
+	font-size:10px;
+	padding:6px;
+	margin-right:8px;
+}
+#kzt-migration .menu-category .figure h3{
+	font-weight: bold;
+	font-size:18px;
+	line-height: 1.4em;
+	margin-bottom: 24px;
+}
+#kzt-migration .menu-category .figure h3 > span{
+	font-size:14px;
+	font-weight:normal;
+	display:block;
+}
+#kzt-migration .menu-category .figure{
+	display: inherit;
+	/* padding: 5%; */
+	position: relative;
+}
+#kzt-migration .menu-category figure{
+}
+#kzt-migration .menu-category .figure > div{
+	width:100% !important;
+	padding: 8%;
+	/* margin-bottom: 5%; */
+}
+#kzt-migration .menu-category .figure > div img{
+	width: 70%;
+}
+#kzt-migration .menu-category .figure .before{
+	margin-bottom: 0;
+}
+#kzt-migration .menu-category .figure .before:after{
+	content:"";
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	background: url(../img/kzt/icon_arrow.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto auto -1em;
+	transform: rotate(90deg);
+}
+
+#kzt-migration .menu-category .figure .after{
+	display:inherit;
+	text-align:center;
+}
+#kzt-migration .menu-category .figure .after figure{
+	width:auto;
+	margin:0 auto;
+}
+
+#kzt-migration .menu-category .figure .after h3{
+	width:100%;
+}
+
+
+
+/*診断チャート*/
+.operation-guide .inr .chart{
+	margin-top: 8%;
+}
+.operation-guide .inr .chart ul{
+	width: 100%;
+	padding-top: 82%;
+	padding-left: 0;
+	background: url(../img/kzt/migration_chart_sp.png) no-repeat center top;
+	background-size: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	.operation-guide .inr .chart ul{
+		background: url(../img/kzt/migration_chart_sp@2x.png) no-repeat center top;
+		background-size: 80%;
+	}
+}
+.operation-guide .inr .chart ul li{
+	width:48%;
+	margin:auto;
+}
+.operation-guide .inr .chart ul li a{
+	font-size:14px;
+}
+.operation-guide .inr .chart ul li.nolink{
+	width: 98%;
+	padding: 12px;
+	margin: 2% auto;
+}
+
+/*補足情報*/
+.operation-guide .inr .notice dl{
+	flex-wrap: wrap;
+}
+
+}
+
+@media(min-width:1px)and (max-width:480px) {
+#kzt-migration .top{
+	padding: 12% 5% 8%;
+}
+#kzt-migration .change{
+	margin: 0 8% 8%;
+	padding: 8% 4%;
+}
+#kzt-migration .menu-category{
+	padding: 8%;
+	margin: 0;
+}
+#kzt-migration .change .figure h3{
+	font-size:16px;
+	margin-bottom: 4%;
+	font-weight: bold;
+}
+#kzt-migration .change .figure h3 >span{
+	font-size:12px;
+}
+#kzt-migration h2.manual{
+	font-size:12px;
+	padding:8% 0;
+}
+.operation-guide .inr h1{
+	font-size: 5vw;
+	padding-bottom: 16px;
+}
+.operation-guide .inr > h2{
+	font-size: 20px;
+}
+.operation-guide .inr p{
+	font-size: 14px;
+}
+.operation-guide .inr p > br{
+	display:none;
+}
+.operation-guide .inr ul.tab{
+	margin-bottom:8%;
+	flex-wrap: wrap;
+}
+.operation-guide .inr ul.tab li{
+	margin: 6px auto;
+	min-width:inherit;
+	text-align: center;
+	width: 100%;
+	max-width: 256px;
+}
+.operation-guide .inr ul.tab li a{
+	padding: 12px 12px;
+	font-size: 13px;
+	border:solid 1px #D8DDE3;
+	background:#FFFFFF;
+	border-radius: 20%/100%;
+	width: 100%;
+	min-width:inherit;
+	cursor: pointer;
+	display: block;
+}
+.operation-guide .inr .detail h2{
+	font-size: 15px;
+}
+.operation-guide .inr .detail h2:before{
+	content: "＜";
+}
+.operation-guide .inr .detail h2:after{
+	content: "＞";
+}
+.operation-guide .inr .detail figcaption{
+	text-align:left;
+	padding-bottom: 24px;
+}
+.operation-guide .inr .notice dt{
+	text-align:center;
+	padding: 2px 24px;
+	margin: 0 auto 5%;
+	font-weight:bold;
+}
+.operation-guide .inr .notice dd{
+	font-size:12px;
+}
+.operation-guide .inr .notice dd > br{
+	display:none;
+}
+.operation-guide .inr .btn.back a{
+	font-size:13px;
+}
+
+#kzt-migration .menu-category dl{
+	margin-bottom: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	padding: 0;
+}
+#kzt-migration .menu-category dt{
+	font-weight: normal;
+	font-size: 5vw;
+	text-align:left;
+	line-height:1.2em;
+	margin-bottom: 12px;
+}
+#kzt-migration .menu-category dt:before{
+	margin: 0 auto 8px;
+	display:block;
+	width: 80px;
+	text-align:center;
+	padding: 0px 2px;
+}
+#kzt-migration .menu-category dd br{
+	display:none;
+}
+.operation-guide .inr > h2.step2{
+	margin-bottom:16px;
+	font-size: 5vw;
+}
+/*補足情報*/
+.operation-guide.tax-setting .inr .notice{
+	border:solid 1px #a3a3a3
+}
+}

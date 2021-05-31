@@ -1,0 +1,248 @@
+@charset utf-8;
+@import url(lightbox.css);
+
+#container{
+	width: 100% !important;
+	max-width: inherit;
+}
+
+#v-headImage{
+	background:url(../img/awards/headImage.jpg)  no-repeat center;
+	background-size:cover;
+	height: 600px;
+	color:#fff;
+	position:relative;
+}
+
+#v-headImage span{
+	font-size:10px;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+
+#v-headImage .inner{
+	width: 1040px;
+	margin:0 auto;
+	vertical-align:middle;
+}
+
+h2.title{
+	font-size:36px;
+	text-align:left;
+}
+
+#v-headImage p{
+	padding-left:550px;
+}
+
+.awards{
+	max-width: 980px;
+	margin:0 auto;
+}
+p.text{
+	padding:20px 0 40px;
+	margin:0 auto 30px;
+}
+.design{
+	clear:both;
+	overflow:hidden;
+	margin-bottom:100px;
+	padding-top:80px;
+	border-top:solid 1px #d5d5d5;
+	margin-bottom:100px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.design > div{
+	margin:auto;
+	align-items: flex-start;
+}
+
+.design > div:first-child{
+	margin-left:0;
+	margin-top: 0;
+}
+
+.design > div:last-child{
+	margin-right:0;
+}
+
+.design:first-child{
+	padding-top:0;
+	border:0;
+}
+
+.design .logo{
+	/* float:left; */
+	max-width: 310px;
+	width:31.63265306122449%;
+	height: 100%;
+	text-align:center;
+}
+/*logo-img*/
+.gda_logo{
+	max-width:300px;
+}
+.gd_logo{
+	max-width:120px;
+}
+.reddot_logo{
+	max-width:300px;
+}
+.if_logo{
+	max-width:300px;
+}
+
+.design .area_right{
+	/* float:right; */
+	max-width: 580px;
+	width: 59.183673469387755%;
+}
+
+.design .area_right p{
+	padding-bottom:16px;
+}
+
+.design .area_right h2.name{
+	font-size: 30px;
+	padding-bottom:15px;
+}
+
+.design .area_right figure{
+	margin:20px 0 0;
+	overflow:hidden;
+	position:relative;
+}
+
+.design .area_right figcaption{
+	position: absolute;
+	bottom:10px;
+	right:10px;
+	color:#fff;
+	font-size:10px;
+}
+
+.design .area_right figure img{
+	margin-left:-50px;
+}
+
+.design .area_right ul.photo {
+	margin-top:40px;
+}
+
+.design .area_right ul.photo li{
+	float:left;
+	margin-right:4px;
+	margin-bottom:4px;
+}
+
+.design .area_right ul.photo li:nth-child(4n+4){
+	margin-right:0;
+}
+
+.oem{
+	width: 360px;
+	padding:0 380px 0 60px;
+	height: 260px;
+	margin:0 auto;
+	background:url(../img/awards/oem.png) no-repeat 0 0;
+}
+
+.oem h4{
+	padding:60px 0 10px;;
+	font-size: 24px;
+}
+
+.oem p{
+	font-size: 11px;
+}
+
+.oem .btn a{
+	margin:25px auto 0;
+	width: 180px;
+	height: 46px;
+	line-height:46px;
+	background-color: #a29482;
+	font-size:14px;
+}
+
+/*GDAギャラリー*/
+.gallery figure{
+	margin:20px 0 !important;
+	clear: both;
+	padding-top: 30px;
+}
+.gallery .gda_gallery li{ float: left;width: 12% !important; margin-right: .5% !important; margin-bottom: .5% !important}
+
+
+@media (min-width:1px)and (max-width:1040px) {
+}
+
+@media (min-width:1px)and (max-width:750px) {
+#container{
+	margin-bottom:40px;
+}
+
+#v-headImage{
+	display:none;
+}
+.design{
+	padding:5%;
+	margin-bottom: 5%;
+}
+.design .logo{
+	width:100%;
+	text-align:center;
+	max-width: inherit;
+	padding-top:5%;
+}
+.design .area_right{
+	width: 100%;
+	max-width: inherit;
+	padding: 5%;
+}
+
+.design .area_right h2.name{
+	font-size: 20px;
+	text-align:center;
+}
+
+.gallery{
+	width: 100%;
+}
+.gallery figure{
+	padding-top: 0;
+}
+.gallery .gda_gallery{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.gallery .gda_gallery li{
+	float: left;
+	width: 24% !important;
+	margin: auto !important;
+	margin-bottom: 1% !important
+}
+
+.design .area_right ul.photo {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.design .area_right ul.photo li{
+	float:none;
+	width:32%;
+	margin:auto;
+	margin-bottom:4px;
+}
+
+.design .area_right ul.photo li:nth-child(4n+4){
+	margin-right:0;
+}
+
+}
