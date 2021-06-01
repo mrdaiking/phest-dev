@@ -4,17 +4,19 @@
     max-width: inherit;
     margin-bottom: inherit;
 }
-.mobile-order {
 
+.banner-image {
+  display: flex;
+  flex-direction: column;
 }
-
 .banner-image .content {
+  order: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
   max-width: 1040px;
   margin: auto;
-  padding: 80px 0;
+  padding: 80px 5%;
 }
 
 .banner-image .content .content-description {
@@ -27,19 +29,25 @@
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 16px;
+  margin-top: 5px;
 }
 
+.banner-image .content .content-description >p {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #606060;
+}
 .banner-image .content figure >img {
-    width: 285px;
-    height: 270px;
+    width: 200px;
+    height: 210px;
 }
 
 .label {
-  max-width: inherit;
-  width: 200px;
-  height: 32px;
-  padding: 10px 16px 8px;
-  border: solid 1px #606060;
+  width: fit-content;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -48,27 +56,47 @@
   letter-spacing: normal;
   text-align: center;
   color: #606060;
+  border: solid 1px #606060;
+  padding: 4px 16px;
 }
 
-.mobile_order .inr {
-  background: url('../img/option/mobile-order/mobile_order_bg.png') no-repeat;
+.content figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.mobile-order .inr {
+  background: url('../img/option/mobile-order/mobile_order_bg_pc.png') no-repeat;
   background-size: cover;
   background-color: #FFFFFF;
-  width: 100%;
-  height: 450px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
 }
 
-.mobile_order .content figure {
+.inr figure {
+  width: 265px;
+  height: 360px;
+  margin-left: 60%;
+  margin-bottom: 0px;
+}
+
+.mobile-order .content figure {
   order: 1;
   margin-left: 80px;
 }
 
 .uber-eats .inr {
-  background: url('../img/option/uber-eats/uber_eats_bg.png') no-repeat;
+  background: url('../img/option/uber-eats/uber_eats_bg_pc.png') no-repeat;
   background-size: cover;
   background-color: #FFFFFF;
-  width: 100%;
-  height: 450px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .uber-eats .content figure {
@@ -78,31 +106,20 @@
 
 
 .take-out .inr {
-  background: url('../img/option/take-out/take_out_bg.png') no-repeat;
+  background: url('../img/option/take-out/take_out_bg_pc.png') no-repeat;
   background-size: cover;
   background-color: #FFFFFF;
-  width: 100%;
-  height: 450px;
-}
-
-.take_out .content figure {
-  order: 1;
-  margin-left: 80px;
-}
-
-.others .inr .service-list ul li {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  border-bottom: 1px solid #d4d4d4;
-}
-.others .inr .service-list ul li figure {
+  min-height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 300px;
-  height: 200px;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.take-out .content figure {
+  order: 1;
+  margin-left: 80px;
+  padding: 50px;
 }
 
 .others {
@@ -112,9 +129,12 @@
   justify-content: center;
   border-top: 1px solid #d4d4d4;
   margin-bottom: 100px;
+  padding: 0px 80px;
 }
 
 .others .inr h2{
+  margin-top: 80px;
+  margin-bottom: 72px;
   font-size: 28px;
   font-weight: normal;
   font-stretch: normal;
@@ -125,6 +145,79 @@
   color: #606060;
 }
 
+.others .inr .service-list ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #d4d4d4;
+}
+.others .inr .service-list ul li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.others .inr .service-list ul li div .text {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #606060;
+}
+
+.others .inr .service-list ul li div a {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #e77d29;
+  border-bottom: 1px solid #e77d29;
+}
+
+.others .inr .service-list ul li figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.others .inr .service-list ul li figure img {
+  width: 280px;
+  height: 70px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+  text-align: center;
+}
+.jms .modal-content img {
+  width: 394px;
+  height: 830px;
+}
+.intapay .modal-content img {
+  width: 396px;
+  height: 692px;
+}
+.glory .modal-content img {
+  width: 396px;
+  height: 692px;
+}
 
 
 
@@ -146,6 +239,72 @@ section .inr{
     /* padding-top: 32px; */
     /* margin-bottom: 5%; */
 }
+.content figure {
+  display: none;
+}
+.banner-image .content {
+  max-width: 414px;
+  margin: auto;
+  padding: 40px 5%;
+}
+
+.banner-image .content .content-description >h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.banner-image .content .content-description >p {
+  font-size: 14px;
+}
+
+.label {
+  font-size: 14px;
+  align-self: center;
+}
+  .mobile-order .inr {
+    order: 2;
+    background: url('../img/option/mobile-order/mobile_order_bg_sp.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: #FFFFFF;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+  }
+  .banner-image .inr figure {
+    width: 136px;
+    height: 136px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .uber-eats .inr {
+    order: 2;
+    background: url('../img/option/uber-eats/uber_eats_bg_sp.png') no-repeat;
+    background-size: cover;
+    background-color: #FFFFFF;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+  }
+
+  .take-out .inr {
+    order: 2;
+    background: url('../img/option/take-out/take_out_bg_sp.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: #FFFFFF;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+  }
+
+  .take-out .inr figure {
+    width: 136px;
+    height: 136px;
+    margin-bottom: 0px;
+  }
 }
 
 @media (min-width: 750px){

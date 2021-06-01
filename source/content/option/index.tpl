@@ -1,17 +1,18 @@
 <!--モバイルオーダー連携-->
-<section class="banner-image mobile_order">
+<section class="banner-image mobile-order">
   <div class="inr">
-    <p>
-      background
-    </p>
+    <figure>
+        <img src="../common/img/option/mobile-order/mobile_order_cap.png" srcset="../common/img/option/mobile-order/mobile_order_cap@2x.png 2x">
+    </figure>
   </div>
   <div class="content">
     <div class="content-description">
-      <p class="label">モバイルオーダー</p>
-      <h3>モバイルオーダー連携で店内の注文をお客様自身のスマホから</h3>
+        <p class="label">モバイルオーダー</p>
+      <h3>モバイルオーダー連携で<br>店内の注文をお客様自身のスマホから</h3>
       <p>
         お客さまのスマートフォンがメニュー注文用の端末になるセルフオーダー サービスです。
         専用QRコードをお客さまご自身のスマートフォンで読み取ると、オーダー画面が表示され、お客さまがオーダー画面から注文すると、キッチンプリンタから伝票が印刷されます。
+        <br><br>
         スタッフが注文を聞く時間を削減でき、非接触で衛生的にも安心の接客が可能。また、ハンディ端末購入によるコストも抑えられます。
       </p>
     </div>
@@ -23,16 +24,13 @@
 
 <!--ウーバーイーツ-->
 
-<section class="banner-image uber-eats">
+<section class="banner-image uber-eats ">
   <div class="inr">
-    <p>
-      background
-    </p>
   </div>
   <div class="content">
     <div class="content-description">
       <p class="label">デリバリー</p>
-      <h3>ウーバーイーツ､出前館からの注文を一括管理</h3>
+      <h3>ウーバーイーツ､出前館からの<br>注文を一括管理</h3>
       <p>
         デリバリー各社からの注文を一元管理。複数のタブレットを参照することなく、POSレジのみで注文を確認できます。
         また、デリバリーから注文も、店内オペレーションと変わらず、キッチン伝票から出力可能。店内オーダーとデリバリーの完全両立が可能となります。
@@ -48,9 +46,9 @@
 
 <section class="banner-image take-out">
   <div class="inr">
-    <p>
-      background
-    </p>
+    <figure>
+        <img src="../common/img/option/take-out/take_out_cap.png" srcset="../common/img/option/take-out/take_out_cap@2x.png 2x">
+    </figure>
   </div>
   <div class="content">
     <div class="content-description">
@@ -71,12 +69,12 @@
 
 <section class="others">
   <div class="inr">
-    <h2>その他にも決済サービス、会計システム、予約管理などの連携が可能です</h2>
+    <h2>その他にも決済サービス、<br>会計システム、予約管理などの連携が可能です</h2>
     <div class="service-list">
       <ul>
           <li>
               <figure>
-                <img src="../common/img/option/others/n_gate_logo.png" srcset="../common/img/option/others/n_gate_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/n_gate_logo.png">
               </figure>
               <div>
                   <p class="label">予約台帳システム</p>
@@ -85,7 +83,7 @@
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/freee_logo.png" srcset="../common/img/option/others/freee_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/freee_logo.png">
               </figure>
               <div>
                   <p class="label">会計システム</p>
@@ -94,7 +92,7 @@
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/yayoi_logo.png" srcset="../common/img/option/others/yayoi_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/yayoi_logo.png">
               </figure>
               <div>
                   <p class="text">日々の会計データを集計し、「弥生会計」に取り込むことができます。</p>
@@ -102,7 +100,7 @@
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/mf_logo.png" srcset="../common/img/option/others/mf_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/mf_logo.png">
               </figure>
               <div>
                   <p class="text">入出金データを一括で「MFクラウド」に送り込み、簡単に会計帳簿が作成できます。</p>
@@ -110,7 +108,7 @@
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/resudaku_logo.png" srcset="../common/img/option/others/resudaku_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/resudaku_logo.png">
               </figure>
               <div>
                   <p class="label">統合管理システム</p>
@@ -119,7 +117,7 @@
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/pikaichi_logo.png" srcset="../common/img/option/others/pikaichi_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/pikaichi_logo.png">
               </figure>
               <div>
                   <p class="text">店舗ごとの売上をタイムリーに確認することが可能です。蓄積したデータより、運用画面帳票の自動作成ができます。</p>
@@ -127,36 +125,36 @@
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/jms_logo.png" srcset="../common/img/option/others/jms_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/jms_logo.png">
               </figure>
               <div>
                   <p class="label">決済サービス</p>
                   <p class="text">1台で多様な決済が可能に。世界水準のセキュリティも強みです。</p>
-                  <a href="">サービス詳細</a>
+                  <a id="jms-btn">サービス詳細</a>
               </div>
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/inta_pay_logo.png" srcset="../common/img/option/others/inta_pay_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/inta_pay_logo.png">
               </figure>
               <div>
                   <p class="label">決済サービス</p>
                   <p class="text">1台で多様な決済が可能に。世界水準のセキュリティも強みです。</p>
-                  <a href="">サービス詳細</a>
+                  <a id="intapay-btn">サービス詳細</a>
               </div>
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/glory_logo.png" srcset="../common/img/option/others/glory_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/glory_logo.png">
               </figure>
               <div>
                   <p class="text">機内残高をはじめ、万が一のトラブル時の復旧ガイダンスに至るまで、さまざまな情報をリアルタイムで分かりやすく確認することができます。</p>
-                  <a href="">サービス詳細</a>
+                  <a id="glory-btn" onclick="showModal">サービス詳細</a>
               </div>
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/7_logo.png" srcset="../common/img/option/others/7_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/7_logo.png">
               </figure>
               <div>
                   <p class="label">売上金入金サービス</p>
@@ -165,7 +163,7 @@
           </li>
           <li>
               <figure>
-                <img src="../common/img/option/others/bme_logo.png" srcset="../common/img/option/others/bme_logo.png@2x.png 2x">
+                <img src="../common/img/option/others/bme_logo.png">
               </figure>
               <div>
                   <p class="label">Google検索の上位表示対策</p>
@@ -176,3 +174,25 @@
     </div>
   </div>
 </section>
+
+<!--Modal-->
+<div class="modal jms" >
+    <span class="close">&times;</span>
+    <div class="modal-content">
+          <figure><img src="../common/img/option/jms_popup.png" srcset="../common/img/option/jms_popup@2x.png 2x"></figure>
+    </div>
+</div>
+<!--Modal-->
+<div class="modal intapay" >
+    <span class="close">&times;</span>
+    <div class="modal-content">
+          <figure><img src="../common/img/option/intapay_popup.png" srcset="../common/img/option/intapay_popup@2x.png 2x"></figure>
+    </div>
+</div>
+<!--Modal-->
+<div class="modal glory" >
+    <span class="close">&times;</span>
+    <div class="modal-content">
+          <figure><img src="../common/img/option/glory_popup.png" srcset="../common/img/option/glory_popup@2x.png 2x"></figure>
+    </div>
+</div>
