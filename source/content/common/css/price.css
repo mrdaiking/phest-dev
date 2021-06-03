@@ -188,8 +188,12 @@ top
 	color:#16C591;
 }
 .running-cost .compare-list td.circle{
-	color:#16C591;
+	color:#0eaa7c;
 	font-size:18px;
+}
+.running-cost .compare-list td.not{
+	color:##000000;
+	font-size:30px;
 }
 
 /* **************************

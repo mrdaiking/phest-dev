@@ -244,72 +244,84 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td class="function">POSレジ機能</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">データ保存</td>
-                    <td class="text">90日間</td>
-                    <td class="text green">無制限</td>
-                    <td class="text green">無制限</td>
-                </tr>
-                <tr>
-                    <td class="function">商品登録数</td>
-                    <td class="text">200点</td>
-                    <td class="text green">無制限</td>
-                    <td class="text green">無制限</td>
-                </tr>
-                <tr>
-                    <td class="function">会計ソフト連携</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">スマホ用管理アプリ</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">複数店舗管理</td>
-                    <td class="circle"></td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">ぴかいち･Win-Board連携</td>
-                    <td class="circle"></td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">電話サポート</td>
-                    <td class="circle"></td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">メールサポート</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">ハンディ利用</td>
-                    <td class="circle"></td>
-                    <td class="circle"></td>
-                    <td class="circle">●</td>
-                </tr>
-                <tr>
-                    <td class="function">キッチンプリンタ利用</td>
-                    <td class="circle"></td>
-                    <td class="circle"></td>
-                    <td class="circle">●</td>
-                </tr>
+							<tr>
+									<td class="function">POSレジ機能</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">電話・メールサポート</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">データ保存</td>
+									<td class="text">90日間</td>
+									<td class="text green">無制限</td>
+									<td class="text green">無制限</td>
+							</tr>
+							<tr>
+									<td class="function">商品登録数</td>
+									<td class="text">200点</td>
+									<td class="text green">無制限</td>
+									<td class="text green">無制限</td>
+							</tr>
+							<tr>
+									<td class="function">クレジットカード連携</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">QR決済</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">モバイルオーダー連携</td>
+									<td class="not">×</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">テイクアウト・デリバリー連携</td>
+									<td class="not">×</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">Freee会計連携</td>
+									<td class="not">×</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">総合管理システム連携</td>
+									<td class="not">×</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">複数店舗管理</td>
+									<td class="not">×</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">キッチンプリンタ利用</td>
+									<td class="not">×</td>
+									<td class="circle">●</td>
+									<td class="circle">●</td>
+							</tr>
+							<tr>
+									<td class="function">ハンディ利用</td>
+									<td class="not">×</td>
+									<td class="not">×</td>
+									<td class="circle">●</td>
+							</tr>
             </tbody>
         </table>
     </div>

@@ -73,101 +73,128 @@
     <div class="service-list">
       <ul>
           <li>
-              <figure>
-                <img src="../common/img/option/others/n_gate_logo.png">
-              </figure>
-              <div>
-                  <p class="label">予約台帳システム</p>
+              <p class="label">予約台帳システム</p>
+              <div class="group">
+                <div class="logo n-gate">
+                    <img src="../common/img/option/others/n_gate_logo.png" srcset="../common/img/option/others/n_gate_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">予約台帳としての機能はもちろん、予約ステータス管理機能、予約情報の共有、店舗の予約売上、予約獲得件数や各種グルメ媒体の費用対効果がリアルタイムで計測される機能などを備えています。</p>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/freee_logo.png">
-              </figure>
-              <div>
-                  <p class="label">会計システム</p>
+              <p class="label service-type">会計システム</p>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/freee_logo.png" srcset="../common/img/option/others/freee_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">入出金データを一括で「freee」に送り込み、簡単に会計帳簿が作成できます。</p>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/yayoi_logo.png">
-              </figure>
-              <div>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/yayoi_logo.png" srcset="../common/img/option/others/yayoi_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">日々の会計データを集計し、「弥生会計」に取り込むことができます。</p>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/mf_logo.png">
-              </figure>
-              <div>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/mf_logo.png" srcset="../common/img/option/others/mf_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">入出金データを一括で「MFクラウド」に送り込み、簡単に会計帳簿が作成できます。</p>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/resudaku_logo.png">
-              </figure>
-              <div>
-                  <p class="label">統合管理システム</p>
+              <p class="label service-type">統合管理システム</p>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/resudaku_logo.png" srcset="../common/img/option/others/resudaku_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">店舗ごとの「売上」「人件費」「原材料費」を一元管理して、毎日正しいデータで日次決算ができます。</p>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/pikaichi_logo.png">
-              </figure>
-              <div>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/pikaichi_logo.png" srcset="../common/img/option/others/pikaichi_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">店舗ごとの売上をタイムリーに確認することが可能です。蓄積したデータより、運用画面帳票の自動作成ができます。</p>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/jms_logo.png">
-              </figure>
-              <div>
-                  <p class="label">決済サービス</p>
+              <p class="label service-type">決済サービス</p>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/jms_logo.png" srcset="../common/img/option/others/jms_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">1台で多様な決済が可能に。世界水準のセキュリティも強みです。</p>
-                  <a id="jms-btn">サービス詳細</a>
+                  <div class="detail-btn">
+                    <a id="jms-btn">サービス詳細</a>
+                  </div>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/inta_pay_logo.png">
-              </figure>
-              <div>
-                  <p class="label">決済サービス</p>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/inta_pay_logo.png" srcset="../common/img/option/others/inta_pay_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">1台で多様な決済が可能に。世界水準のセキュリティも強みです。</p>
-                  <a id="intapay-btn">サービス詳細</a>
+                  <div class="detail-btn">
+                    <a id="intapay-btn">サービス詳細</a>
+                  </div>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/glory_logo.png">
-              </figure>
-              <div>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/glory_logo.png" srcset="../common/img/option/others/glory_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
                   <p class="text">機内残高をはじめ、万が一のトラブル時の復旧ガイダンスに至るまで、さまざまな情報をリアルタイムで分かりやすく確認することができます。</p>
-                  <a id="glory-btn" onclick="showModal">サービス詳細</a>
+                  <div class="detail-btn">
+                    <a id="glory-btn" onclick="showModal">サービス詳細</a>
+                  </div>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/7_logo.png">
-              </figure>
-              <div>
-                  <p class="label">売上金入金サービス</p>
+              <p class="label service-type">売上金入金サービス</p>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/7_logo.png" srcset="../common/img/option/others/7_logo@2x.png 2x" >
+                </div>
+                <div class="logo-content">
                   <p class="text">機内残高をはじめ、万が一のトラブル時の復旧ガイダンスに至るまで、さまざまな情報をリアルタイムで分かりやすく確認することができます。</p>
+                </div>
               </div>
           </li>
           <li>
-              <figure>
-                <img src="../common/img/option/others/bme_logo.png">
-              </figure>
-              <div>
-                  <p class="label">Google検索の上位表示対策</p>
-                  <p class="text">Googleの検索結果で上位表示を実現するサービスです。スマホやパソコンで検索するお客さまにアピールします。</p>
+              <p class="label service-type">Google検索の上位表示対策</p>
+              <div class="group">
+                <div class="logo">
+                    <img src="../common/img/option/others/bme_logo.png" srcset="../common/img/option/others/bme_logo@2x.png 2x">
+                </div>
+                <div class="logo-content">
+                    <p class="text">Googleの検索結果で上位表示を実現するサービスです。スマホやパソコンで検索するお客さまにアピールします。</p>
+                </div>
               </div>
           </li>
       </ul>
