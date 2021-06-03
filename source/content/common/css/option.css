@@ -87,6 +87,12 @@
   margin-bottom: 0px;
 }
 
+.inr figure img{
+  width: 100%;
+  height: 100%;
+}
+
+
 .mobile-order .content figure {
   order: 1;
   margin-left: 80px;
@@ -147,6 +153,7 @@
   text-align: center;
   color: #606060;
 }
+
 .others .inr .service-list {
   padding: 0px 10%;
 }
@@ -166,7 +173,6 @@
   justify-content: center;
   align-items: center;
   margin: 40px 0px;
-  background-color: yellow;
 }
 
 .others .inr .service-list .group .logo {
@@ -181,6 +187,7 @@
   width: 170px;
   height: 76px;
 }
+
 .others .inr .service-list .group .logo-content {
   display: flex;
   flex: 1;
@@ -260,6 +267,114 @@
 section .inr{
 	padding: 8% 6%;
 }
+#container {
+    /* padding-top: 32px; */
+    /* margin-bottom: 5%; */
+}
+
+.banner-image .content {
+  margin: auto;
+  padding: 40px 5%;
+}
+
+.banner-image .content .content-description >h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.banner-image .content .content-description >p {
+  font-size: 14px;
+}
+
+.label {
+  font-size: 14px;
+  align-self: center;
+}
+
+  .others {
+    padding: 0px 0px;
+  }
+
+  section .inr {
+    padding: 0px 5%;
+  }
+
+  .others .inr h2{
+    font-size: 16px;
+  }
+
+  .others .inr .service-list {
+    padding: 0px 0px;
+  }
+
+  .others .inr .service-list .group  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .others .inr .service-list .group .logo-content {
+    padding: 0px 0px;
+  }
+
+  .others .inr .service-list .group  div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .others .inr .service-list .group .logo-content .detail-btn {
+    display: flex;
+    border-radius: 20px;
+    border: solid 1px #d4d4d4;
+    width: 60%;
+    height: 40px;
+  }
+  .others .inr .service-list ul li div a {
+    text-align: center;
+    color: #000000;
+    border-bottom: 0px;
+  }
+
+  .others .inr .service-list .group .logo-content .text {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .others .inr .service-list .group .logo {
+    width: 260px;
+    height: 50px;
+  }
+
+  .n-gate img {
+    width: 140px;
+    height: 56px;
+  }
+
+  .modal {
+    padding:50px 0px;
+  }
+  .modal-content {
+    padding: 20px;
+    text-align: center;
+  }
+  .modal-content figure {
+    margin: 0px;
+  }
+
+  .jms .modal-content img {
+    width: 100%;
+    height: calc(100%*2.1);
+  }
+  .intapay .modal-content img {
+    width: 100%;
+    height: calc(100%*1.74);
+  }
+  .glory .modal-content img {
+    width: 100%;
+    height: calc(100%*1.74);
+  }
+
 }
 
 @media (max-width: 750px) and (min-width: 1px) {
@@ -302,9 +417,13 @@ section .inr{
   }
   .banner-image .inr figure {
     width: 136px;
-    height: 136px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    height: 168px;
+    margin: 0px;
+  }
+
+  .banner-image .inr figure img{
+    width: 100%;
+    height: 100%;
   }
 
   .uber-eats .inr {
@@ -328,17 +447,16 @@ section .inr{
     align-items: center;
   }
 
-  .take-out .inr figure {
-    width: 136px;
-    height: 136px;
-    margin-bottom: 0px;
-  }
   .others {
     padding: 0px 0px;
   }
 
   section .inr {
-    padding: 0px 0px;
+    padding: 0px 5%;
+  }
+
+  .others .inr h2{
+    font-size: 16px;
   }
 
   .others .inr .service-list {
@@ -364,11 +482,54 @@ section .inr{
     display: flex;
     border-radius: 20px;
     border: solid 1px #d4d4d4;
+    width: 60%;
+    height: 40px;
   }
   .others .inr .service-list ul li div a {
     text-align: center;
     color: #000000;
+    border-bottom: 0px;
   }
+
+  .others .inr .service-list .group .logo-content .text {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .others .inr .service-list .group .logo {
+    width: 260px;
+    height: 50px;
+  }
+
+  .n-gate img {
+    width: 140px;
+    height: 56px;
+  }
+
+  .modal {
+    padding:50px 0px;
+  }
+  .modal-content {
+    padding: 20px;
+    text-align: center;
+  }
+  .modal-content figure {
+    margin: 0px;
+  }
+
+  .jms .modal-content img {
+    width: 100%;
+    height: calc(100%*2.1);
+  }
+  .intapay .modal-content img {
+    width: 100%;
+    height: calc(100%*1.74);
+  }
+  .glory .modal-content img {
+    width: 100%;
+    height: calc(100%*1.74);
+  }
+
 }
 
 @media (min-width: 750px){
